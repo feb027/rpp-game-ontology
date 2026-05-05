@@ -113,7 +113,7 @@ docs/09-protege-user-guide.md
 
 ```bash
 python -m venv .venv
-source .venv/bin/activate
+.\.venv\Scripts\
 pip install -r requirements.txt
 streamlit run app/main.py
 ```
