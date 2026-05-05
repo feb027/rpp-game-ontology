@@ -1,6 +1,15 @@
 from __future__ import annotations
 
+from pathlib import Path
+import sys
+
 import streamlit as st
+
+# Streamlit may execute this file with app/ as sys.path[0], especially on Windows.
+# Add the repository root so package imports like `app.data` work consistently.
+ROOT = Path(__file__).resolve().parents[1]
+if str(ROOT) not in sys.path:
+    sys.path.insert(0, str(ROOT))
 
 from app.data import DIFFICULTIES, DURATIONS, GENRES, MODES, MOODS, PLATFORMS
 from app.recommender import recommend_games
