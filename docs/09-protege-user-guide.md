@@ -275,11 +275,14 @@ Expected result:
 
 - `Recommendation_Stardew_Stress_PC`
 
-Catatan: jika DL Query tidak keluar hasil, cek tiga hal:
+Catatan penting: jika hasil yang muncul hanya `owl:Nothing`, biasanya kamu sedang melihat bagian **Subclasses**. Itu normal karena ekspresi query tidak punya subclass. Untuk tugas rekomendasi game, hasil yang dicari adalah bagian **Instances / Individuals**. Di panel hasil DL Query, aktifkan/lihat checkbox atau section **Instances** dan abaikan `owl:Nothing` pada bagian Subclasses.
+
+Jika bagian Instances tetap kosong, cek tiga hal:
 
 1. Reasoner sudah aktif.
 2. Nama individual persis sama, misalnya `Stres`, bukan `Stress`.
 3. Query memakai Manchester Syntax, bukan SPARQL.
+4. Pastikan ontology sudah konsisten. Jika HermiT masih inconsistent, tutup Protégé lalu buka ulang file OWL terbaru dari `ontology/game_recommendation.owl`.
 
 ## 9. SPARQL Query Alternatif
 
