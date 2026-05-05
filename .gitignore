@@ -3,3 +3,8 @@ __pycache__/
 .venv/
 .pytest_cache/
 .DS_Store
+node_modules/
+.worktrees/
+*.zip
+video/final-rpp-game-ontology.mp4
+video/youtube-url.txt

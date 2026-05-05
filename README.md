@@ -1,41 +1,152 @@
-# Study Case: Sistem Rekomendasi Game Berdasarkan Preferensi dan Mood Menggunakan Ontologi
+# Sistem Rekomendasi Game Berdasarkan Preferensi dan Mood Menggunakan Ontologi
 
-Tugas Besar Representasi Pengetahuan dan Penalaran.
+Repo teknis untuk Tugas Besar **Representasi Pengetahuan dan Penalaran**.
 
-## Target Deliverables
+Studi kasus: sistem berbasis pengetahuan yang merekomendasikan game berdasarkan mood pengguna dan preferensi bermain menggunakan ontologi yang kompatibel dengan **Protégé**.
 
-1. Slide presentasi berisi poin a–e:
-   - Cara unduh dan instalasi tools
-   - Pengenalan lingkungan kerja Protégé
-   - Deskripsi persoalan kasus
-   - Deskripsi solusi penyelesaian kasus
-   - Penerapan kasus menggunakan tools
-2. Perangkat lunak demo aplikasi untuk poin f.
-3. Video tutorial final untuk dikumpulkan dan diunggah ke channel YouTube AIS.
+## Fokus Repo
 
-## Studi Kasus
+Repo ini difokuskan pada pengerjaan teknis:
 
-Sistem rekomendasi game berdasarkan preferensi pengguna dan mood menggunakan ontologi. Sistem memodelkan relasi antara mood, genre game, platform, mode bermain, tingkat kesulitan, durasi bermain, preferensi pengguna, dan rekomendasi game.
+- Ontologi OWL/RDF yang bisa dibuka di Protégé.
+- Artefak Methontology sesuai materi dosen.
+- Query/evaluasi ontology.
+- Aplikasi demo Streamlit.
+- Test otomatis untuk app dan ontology.
 
-## Stack Awal
+Slide dan video tutorial dibuat manual memakai artefak repo ini sebagai bahan.
 
-- Ontology authoring: Protégé
-- Ontology format: OWL/RDF
-- Reasoning: rule/ontology-based reasoning
-- Demo app: Python Streamlit atau Flask + OWL/RDF data
+## Mapping Tugas
+
+| Poin tugas | Artefak utama |
+|---|---|
+| a. Cara unduh dan instalasi tools | `docs/03-research-notes.md`, `docs/06-slide-notes.md` |
+| b. Pengenalan lingkungan kerja tools | `docs/03-research-notes.md`, `docs/06-slide-notes.md` |
+| c. Deskripsi persoalan kasus | `docs/00-task-brief.md`, `docs/02-scope-and-acceptance.md`, `docs/04-ontology-specification.md` |
+| d. Deskripsi solusi penyelesaian kasus | `docs/04-ontology-specification.md`, `docs/08-methontology-artifacts.md`, `ontology/ontology-design.md` |
+| e. Penerapan kasus menggunakan tools | `ontology/game_recommendation.owl`, `ontology/queries.md` |
+| f. Demo aplikasi | `app/`, `requirements.txt`, `tests/`, `docs/05-demo-app-guide.md` |
 
 ## Struktur Folder
 
 ```text
-docs/       dokumen perencanaan, riset, dan naskah
-slides/     materi slide presentasi
-app/        source code aplikasi demo
-ontology/   file OWL/RDF dari Protégé
-video/      script/storyboard video tutorial
-assets/     gambar, screenshot, diagram
-references/ sumber dan catatan referensi
+app/        aplikasi demo Streamlit dan logic rekomendasi
+ontology/   file OWL/RDF, desain, dan query evaluasi
+docs/       brief, scope, materi dosen, Methontology artifacts, QA
+slides/     bahan/outline slide manual
+video/      script/storyboard/checklist video manual
+tests/      test app dan ontology
 ```
 
-## Workflow
+## Ontologi
 
-Project dikelola via Hermes Kanban board `rpp-game-ontology`. Coding/review berat memakai Codex di worktree Kanban.
+File utama:
+
+```text
+ontology/game_recommendation.owl
+```
+
+Core class:
+
+- `Game`
+- `Genre`
+- `Mood`
+- `Platform`
+- `PlayMode`
+- `Difficulty`
+- `Duration`
+- `PlayerPreference`
+- `Recommendation`
+
+Contoh game individual:
+
+- `StardewValley`
+- `Minecraft`
+- `Valorant`
+- `GenshinImpact`
+- `CandyCrush`
+- `Overcooked2`
+- `TheWitcher3`
+- `AnimalCrossing`
+
+Query evaluasi tersedia di:
+
+```text
+ontology/queries.md
+```
+
+Artefak Methontology tersedia di:
+
+```text
+docs/08-methontology-artifacts.md
+```
+
+Alignment dengan materi dosen tersedia di:
+
+```text
+docs/07-dosen-material-alignment.md
+```
+
+## Cara Menjalankan App
+
+```bash
+python -m venv .venv
+source .venv/bin/activate
+pip install -r requirements.txt
+streamlit run app/main.py
+```
+
+Demo input yang direkomendasikan:
+
+- Mood: `Stres`
+- Genre: `Casual`
+- Platform: `PC`
+- Mode: `SinglePlayer`
+- Durasi: `Sedang`
+- Difficulty: `Mudah`
+
+Expected top result:
+
+- `Stardew Valley`
+
+## Testing
+
+```bash
+source .venv/bin/activate
+python -m pytest -q
+```
+
+Test mencakup:
+
+- behavior rekomendasi app.
+- parse dan vocabulary ontology.
+- keberadaan 8 game individual di OWL.
+- SPARQL smoke query untuk expected result.
+- recommendation individual dengan reason dan score.
+
+## Protégé Manual Check
+
+1. Buka Protégé.
+2. Open file `ontology/game_recommendation.owl`.
+3. Cek tab **Entities**:
+   - Classes
+   - Object Properties
+   - Data Properties
+   - Individuals
+4. Coba DL Query dari `ontology/queries.md`.
+5. Jalankan reasoner jika tersedia untuk consistency check.
+
+## Catatan Pengumpulan
+
+Repo ini belum otomatis menyelesaikan bagian manusia:
+
+- rekam/export video final,
+- upload ke YouTube AIS,
+- buat ZIP final,
+- kirim ke ketua kelas.
+
+Checklist pengumpulan ada di:
+
+```text
+docs/SUBMISSION_CHECKLIST.md
+```
