@@ -103,6 +103,12 @@ Alignment dengan materi dosen tersedia di:
 docs/07-dosen-material-alignment.md
 ```
 
+Panduan pemakaian Protégé, HermiT, DL Query, dan OntoGraf tersedia di:
+
+```text
+docs/09-protege-user-guide.md
+```
+
 ## Cara Menjalankan App
 
 ```bash

@@ -1,6 +1,6 @@
 from pathlib import Path
 
-from rdflib import Graph, Namespace, RDF, OWL, Literal
+from rdflib import Graph, Namespace, RDF, OWL, Literal, XSD
 
 
 ROOT = Path(__file__).resolve().parents[1]
@@ -123,4 +123,6 @@ def test_recommendation_individuals_include_reason_and_score():
     reasons = list(graph.objects(recommendation, EX.recommendationReason))
     scores = list(graph.objects(recommendation, EX.priorityScore))
     assert reasons and "Stres" in str(reasons[0])
+    assert reasons[0].datatype == XSD.string
+    assert reasons[0].language is None
     assert scores and int(scores[0]) > 0

@@ -186,7 +186,11 @@ def build_graph() -> Graph:
         for pref_value in prefs:
             graph.add((EX[rec], EX.basedOnPreference, EX[preference_name("", pref_value)]))
         graph.add((EX[rec], EX.priorityScore, Literal(score, datatype=XSD.integer)))
-        graph.add((EX[rec], EX.recommendationReason, Literal(reason, lang="id")))
+        # Keep this as xsd:string, not a language-tagged literal, because
+        # recommendationReason has range xsd:string. HermiT treats langString
+        # values on an xsd:string property as a datatype clash and can report
+        # the ontology as inconsistent.
+        graph.add((EX[rec], EX.recommendationReason, Literal(reason, datatype=XSD.string)))
 
     return graph
 

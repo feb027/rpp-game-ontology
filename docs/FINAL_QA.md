@@ -13,7 +13,7 @@ Repo sudah siap sebagai basis teknis tugas RPP: ontology OWL/Protégé, artefak 
 | Requirement | Status teknis | Evidence | Notes |
 |---|---:|---|---|
 | a. Cara unduh dan instalasi tools | READY_AS_MATERIAL | `docs/03-research-notes.md`, `docs/06-slide-notes.md`, `slides/outline.md` | Dipakai sebagai bahan slide/video manual. |
-| b. Pengenalan lingkungan kerja tools | READY_AS_MATERIAL | `docs/03-research-notes.md`, `docs/06-slide-notes.md` | Menjelaskan Active Ontology, Entities, Classes, Properties, Individuals, Reasoner, DL Query. |
+| b. Pengenalan lingkungan kerja tools | READY_AS_MATERIAL | `docs/03-research-notes.md`, `docs/06-slide-notes.md`, `docs/09-protege-user-guide.md` | Menjelaskan Active Ontology, Entities, Classes, Properties, Individuals, Reasoner, DL Query, dan OntoGraf. |
 | c. Deskripsi persoalan kasus | PASS | `docs/00-task-brief.md`, `docs/02-scope-and-acceptance.md`, `docs/04-ontology-specification.md` | Studi kasus mood + preferensi game jelas. |
 | d. Deskripsi solusi penyelesaian kasus | PASS | `docs/04-ontology-specification.md`, `docs/07-dosen-material-alignment.md`, `docs/08-methontology-artifacts.md`, `ontology/ontology-design.md` | Sudah selaras dengan materi RPP-12/RPP-13 dan Methontology. |
 | e. Penerapan kasus menggunakan tools | PASS | `ontology/game_recommendation.owl`, `ontology/queries.md` | OWL parseable, memuat vocabulary utama, 18 game, recommendation individuals, dan query evaluasi. |
@@ -34,7 +34,7 @@ python -m pytest -q
 Result:
 
 ```text
-7 passed in 0.81s
+7 passed in 0.49s
 app_games=18
 owl_triples=784
 pptx_slides=12
