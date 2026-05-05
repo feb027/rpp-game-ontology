@@ -138,16 +138,29 @@ Implementasi rule ada di `app/recommender.py`, sedangkan OWL menyimpan struktur 
 
 | Instance | Class | Key attributes/relations |
 |---|---|---|
-| StardewValley | Game, RelaxingGame | Casual, Simulation, Stres, Santai, PC/Console/Mobile, SinglePlayer/Coop, Mudah, Sedang/Panjang |
-| Minecraft | Game, ExplorationGame | Adventure, Sandbox, Eksploratif/Sosial/Bosan, PC/Console/Mobile, SinglePlayer/Multiplayer/Coop |
-| Valorant | Game, CompetitiveGame | FPS, Kompetitif/Sosial, PC, Multiplayer, Sulit, Singkat/Sedang |
-| GenshinImpact | Game, ExplorationGame | RPG, Adventure, Eksploratif/Santai, PC/Mobile/Console, SinglePlayer/Coop |
-| CandyCrush | Game, RelaxingGame | Puzzle, Casual, Bosan/Santai, Mobile, SinglePlayer, Mudah, Singkat |
-| Overcooked2 | Game, SocialGame | Simulation, Party, Sosial/Bosan, PC/Console, Coop/Multiplayer |
-| TheWitcher3 | Game, ExplorationGame | RPG, Adventure, Eksploratif, PC/Console, SinglePlayer, Panjang |
-| AnimalCrossing | Game, RelaxingGame | Simulation, Casual, Santai/Stres, Console, SinglePlayer/Multiplayer, Mudah |
+| StardewValley | Game, RelaxingGame | Simulation, Casual; mood Santai, Stres; platform PC, Console, Mobile; mode SinglePlayer, Coop; Mudah; durasi Sedang, Panjang |
+| Minecraft | Game, ExplorationGame | Adventure, Sandbox; mood Eksploratif, Sosial, Bosan; platform PC, Console, Mobile; mode SinglePlayer, Multiplayer, Coop; Sedang; durasi Sedang, Panjang |
+| Valorant | Game, CompetitiveGame | FPS; mood Kompetitif, Sosial; platform PC; mode Multiplayer; Sulit; durasi Singkat, Sedang |
+| GenshinImpact | Game, ExplorationGame | RPG, Adventure; mood Eksploratif, Santai; platform PC, Mobile, Console; mode SinglePlayer, Coop; Sedang; durasi Sedang, Panjang |
+| CandyCrush | Game, RelaxingGame | Puzzle, Casual; mood Bosan, Santai; platform Mobile; mode SinglePlayer; Mudah; durasi Singkat |
+| Overcooked2 | Game, SocialGame | Simulation, Party; mood Sosial, Bosan; platform PC, Console; mode Coop, Multiplayer; Sedang; durasi Singkat, Sedang |
+| TheWitcher3 | Game, ExplorationGame | RPG, Adventure; mood Eksploratif; platform PC, Console; mode SinglePlayer; Sedang; durasi Panjang |
+| AnimalCrossing | Game, RelaxingGame | Simulation, Casual; mood Santai, Stres; platform Console; mode SinglePlayer, Multiplayer; Mudah; durasi Sedang |
+| LeagueOfLegends | Game, CompetitiveGame | MOBA, Strategy; mood Kompetitif, Sosial; platform PC; mode Multiplayer; Sulit; durasi Sedang, Panjang |
+| CounterStrike2 | Game, CompetitiveGame | FPS; mood Kompetitif; platform PC; mode Multiplayer; Sulit; durasi Singkat, Sedang |
+| ApexLegends | Game, CompetitiveGame | FPS, BattleRoyale; mood Kompetitif, Sosial; platform PC, Console; mode Multiplayer; Sulit; durasi Singkat, Sedang |
+| Terraria | Game, ExplorationGame | Adventure, Sandbox; mood Eksploratif, Bosan; platform PC, Console, Mobile; mode SinglePlayer, Multiplayer, Coop; Sedang; durasi Sedang, Panjang |
+| HollowKnight | Game, ExplorationGame | Adventure, Metroidvania; mood Eksploratif; platform PC, Console; mode SinglePlayer; Sulit; durasi Panjang |
+| CivilizationVi | Game, CompetitiveGame | Strategy; mood Kompetitif, Eksploratif; platform PC, Console, Mobile; mode SinglePlayer, Multiplayer; Sedang; durasi Panjang |
+| TheSims4 | Game, RelaxingGame | Simulation, Casual; mood Santai, Bosan; platform PC, Console; mode SinglePlayer; Mudah; durasi Sedang, Panjang |
+| Unpacking | Game, RelaxingGame | Puzzle, Casual; mood Santai, Stres; platform PC, Console; mode SinglePlayer; Mudah; durasi Singkat, Sedang |
+| Journey | Game, RelaxingGame | Adventure, Casual; mood Santai, Stres, Eksploratif; platform PC, Console, Mobile; mode SinglePlayer, Multiplayer; Mudah; durasi Singkat, Sedang |
+| AmongUs | Game, SocialGame | Party, SocialDeduction; mood Sosial, Bosan; platform PC, Mobile, Console; mode Multiplayer; Mudah; durasi Singkat |
 | Recommendation_Stardew_Stress_PC | Recommendation | recommendsGame StardewValley, basedOnMood Stres, priorityScore 15 |
-| Recommendation_Valorant_Competitive_PC | Recommendation | recommendsGame Valorant, basedOnMood Kompetitif, priorityScore 14 |
+| Recommendation_Valorant_Competitive_PC | Recommendation | recommendsGame Valorant, basedOnMood Kompetitif, priorityScore 15 |
+| Recommendation_CounterStrike_Competitive_PC | Recommendation | recommendsGame CounterStrike2, basedOnMood Kompetitif, priorityScore 15 |
+| Recommendation_Apex_Competitive_Social | Recommendation | recommendsGame ApexLegends, basedOnMood Kompetitif, priorityScore 15 |
+| Recommendation_Unpacking_Stress | Recommendation | recommendsGame Unpacking, basedOnMood Stres, priorityScore 14 |
 | Recommendation_Minecraft_Exploration | Recommendation | recommendsGame Minecraft, basedOnMood Eksploratif, priorityScore 12 |
 
 ## 12. Evaluation Plan

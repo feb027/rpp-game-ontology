@@ -15,6 +15,8 @@ Game and suitableForMood value Stres and hasGenre value Casual and availableOn v
 Expected result:
 
 - `StardewValley`
+- `Unpacking`
+- `Journey`
 
 ### CQ2 — Game apa yang cocok untuk mood kompetitif di PC dan mode multiplayer?
 
@@ -25,6 +27,8 @@ Game and suitableForMood value Kompetitif and availableOn value PC and hasPlayMo
 Expected result:
 
 - `Valorant`
+- `CounterStrike2`
+- `ApexLegends`
 
 ### CQ3 — Game apa yang cocok untuk eksplorasi dan tersedia di PC?
 
@@ -37,6 +41,10 @@ Expected result:
 - `Minecraft`
 - `GenshinImpact`
 - `TheWitcher3`
+- `Terraria`
+- `HollowKnight`
+- `CivilizationVi`
+- `Journey`
 
 ### CQ4 — Game apa yang cocok untuk sosial dan memiliki mode co-op/multiplayer?
 
@@ -49,6 +57,9 @@ Expected result:
 - `Minecraft`
 - `Valorant`
 - `Overcooked2`
+- `LeagueOfLegends`
+- `ApexLegends`
+- `AmongUs`
 
 ### CQ5 — Rekomendasi apa yang menunjuk Stardew Valley?
 
@@ -83,6 +94,8 @@ Expected:
 | game | title |
 |---|---|
 | `ex:StardewValley` | `Stardew Valley` |
+| `ex:Unpacking` | `Unpacking` |
+| `ex:Journey` | `Journey` |
 
 ### SQ2 — Competitive Multiplayer PC
 
@@ -103,6 +116,8 @@ Expected:
 | game | title |
 |---|---|
 | `ex:Valorant` | `Valorant` |
+| `ex:CounterStrike2` | `Counter-Strike 2` |
+| `ex:ApexLegends` | `Apex Legends` |
 
 ### SQ3 — Recommendation Reason
 

@@ -64,7 +64,18 @@ def test_ontology_contains_all_demo_game_instances():
         "Overcooked2": "Overcooked 2",
         "TheWitcher3": "The Witcher 3",
         "AnimalCrossing": "Animal Crossing",
+        "LeagueOfLegends": "League of Legends",
+        "CounterStrike2": "Counter-Strike 2",
+        "ApexLegends": "Apex Legends",
+        "Terraria": "Terraria",
+        "HollowKnight": "Hollow Knight",
+        "CivilizationVi": "Civilization VI",
+        "TheSims4": "The Sims 4",
+        "Unpacking": "Unpacking",
+        "Journey": "Journey",
+        "AmongUs": "Among Us",
     }
+    assert len(expected_games) == 18
 
     for individual_name, title in expected_games.items():
         assert_named(graph, individual_name, OWL.NamedIndividual)
@@ -99,7 +110,7 @@ def test_sparql_recommendation_queries_have_expected_results():
     }
     """
     competitive_games = {row.game.split("#")[-1] for row in graph.query(competitive_query)}
-    assert competitive_games == {"Valorant"}
+    assert competitive_games == {"Valorant", "CounterStrike2", "ApexLegends"}
 
 
 def test_recommendation_individuals_include_reason_and_score():

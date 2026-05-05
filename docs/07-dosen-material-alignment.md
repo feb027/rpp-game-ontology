@@ -30,7 +30,7 @@ Dokumen ini memetakan materi dosen ke artefak teknis repo `rpp-game-ontology`. S
 | Ad hoc binary relation | Relasi antar konsep beserta domain/range/kardinalitas | Bagian 6 di `docs/08-methontology-artifacts.md`; object property di OWL |
 | Instance/class attribute | Atribut instance/class | Bagian 7–8 di `docs/08-methontology-artifacts.md`; data property di OWL |
 | Formal axioms dan rules | Batasan/aturan untuk penalaran | Bagian 9–10 di `docs/08-methontology-artifacts.md`; contoh rule dipakai app |
-| Instances | Individual nyata pada domain | OWL memuat 8 game, vocabulary mood/genre/platform/mode/duration/difficulty, preference, dan recommendation |
+| Instances | Individual nyata pada domain | OWL memuat 18 game, vocabulary mood/genre/platform/mode/duration/difficulty, preference, dan recommendation |
 | Implementasi Protégé | Ontologi disusun pada environment yang mendukung bahasa formal | `ontology/game_recommendation.owl` kompatibel dengan Protégé dan RDF/OWL |
 | Evaluasi | Verifikasi/validasi ontology, software environment, dokumentasi | `tests/test_ontology.py`, `tests/test_recommender.py`, dan `ontology/queries.md` |
 

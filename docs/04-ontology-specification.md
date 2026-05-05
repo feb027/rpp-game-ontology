@@ -41,7 +41,7 @@ Ontologi ini merepresentasikan pengetahuan tentang hubungan antara mood pengguna
 | Class | Deskripsi | Contoh Individu |
 |---|---|---|
 | `Game` | Entitas game yang dapat direkomendasikan | `StardewValley`, `Valorant`, `Minecraft` |
-| `Genre` | Kategori gameplay game | `RPG`, `FPS`, `Simulation`, `Puzzle`, `Adventure` |
+| `Genre` | Kategori gameplay game | `RPG`, `FPS`, `Simulation`, `Puzzle`, `Adventure`, `Strategy`, `MOBA` |
 | `Mood` | Kondisi emosional pengguna saat memilih game | `Santai`, `Kompetitif`, `Stres`, `Bosan`, `Eksploratif`, `Sosial` |
 | `Platform` | Perangkat tempat game dimainkan | `PC`, `Mobile`, `Console` |
 | `PlayMode` | Mode bermain game | `SinglePlayer`, `Multiplayer`, `Coop` |
@@ -85,6 +85,16 @@ Ontologi ini merepresentasikan pengetahuan tentang hubungan antara mood pengguna
 | Overcooked 2 | Simulation, Party | Sosial, Bosan | PC, Console | Coop, Multiplayer | Sedang | Singkat, Sedang |
 | The Witcher 3 | RPG, Adventure | Eksploratif | PC, Console | SinglePlayer | Sedang | Panjang |
 | Animal Crossing | Simulation, Casual | Santai, Stres | Console | SinglePlayer, Multiplayer | Mudah | Sedang |
+| League of Legends | MOBA, Strategy | Kompetitif, Sosial | PC | Multiplayer | Sulit | Sedang, Panjang |
+| Counter-Strike 2 | FPS | Kompetitif | PC | Multiplayer | Sulit | Singkat, Sedang |
+| Apex Legends | FPS, BattleRoyale | Kompetitif, Sosial | PC, Console | Multiplayer | Sulit | Singkat, Sedang |
+| Terraria | Adventure, Sandbox | Eksploratif, Bosan | PC, Console, Mobile | SinglePlayer, Multiplayer, Coop | Sedang | Sedang, Panjang |
+| Hollow Knight | Adventure, Metroidvania | Eksploratif | PC, Console | SinglePlayer | Sulit | Panjang |
+| Civilization VI | Strategy | Kompetitif, Eksploratif | PC, Console, Mobile | SinglePlayer, Multiplayer | Sedang | Panjang |
+| The Sims 4 | Simulation, Casual | Santai, Bosan | PC, Console | SinglePlayer | Mudah | Sedang, Panjang |
+| Unpacking | Puzzle, Casual | Santai, Stres | PC, Console | SinglePlayer | Mudah | Singkat, Sedang |
+| Journey | Adventure, Casual | Santai, Stres, Eksploratif | PC, Console, Mobile | SinglePlayer, Multiplayer | Mudah | Singkat, Sedang |
+| Among Us | Party, SocialDeduction | Sosial, Bosan | PC, Mobile, Console | Multiplayer | Mudah | Singkat |
 
 ## 8. Strategi Reasoning
 
@@ -136,6 +146,7 @@ Jika pengguna hanya punya waktu singkat, maka sistem memprioritaskan game dengan
 
 ### Output
 - Valorant — karena cocok untuk mood kompetitif, genre FPS, mode multiplayer, tersedia di PC, dan cocok untuk sesi singkat/sedang.
+- Counter-Strike 2 dan Apex Legends — alternatif kompetitif FPS yang juga memenuhi platform PC, mode multiplayer, dan durasi singkat/sedang.
 
 ## 11. Mapping ke Methontology
 

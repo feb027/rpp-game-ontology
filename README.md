@@ -58,7 +58,7 @@ Core class:
 - `PlayerPreference`
 - `Recommendation`
 
-Contoh game individual:
+Contoh game individual berjumlah 18:
 
 - `StardewValley`
 - `Minecraft`
@@ -68,11 +68,27 @@ Contoh game individual:
 - `Overcooked2`
 - `TheWitcher3`
 - `AnimalCrossing`
+- `LeagueOfLegends`
+- `CounterStrike2`
+- `ApexLegends`
+- `Terraria`
+- `HollowKnight`
+- `CivilizationVi`
+- `TheSims4`
+- `Unpacking`
+- `Journey`
+- `AmongUs`
 
 Query evaluasi tersedia di:
 
 ```text
 ontology/queries.md
+```
+
+Ontology OWL dapat diregenerasi dari seed data dengan:
+
+```bash
+python scripts/generate_ontology.py
 ```
 
 Artefak Methontology tersedia di:
@@ -120,7 +136,7 @@ Test mencakup:
 
 - behavior rekomendasi app.
 - parse dan vocabulary ontology.
-- keberadaan 8 game individual di OWL.
+- keberadaan 18 game individual di OWL.
 - SPARQL smoke query untuk expected result.
 - recommendation individual dengan reason dan score.
 

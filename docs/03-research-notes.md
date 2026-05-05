@@ -213,6 +213,6 @@ Adaptasi ke tugas:
 - [ ] Buat ontology specification berdasarkan class/property/individual di catatan ini.
 - [ ] Tentukan competency questions final.
 - [ ] Implementasikan file OWL/RDF di Protégé atau generator OWL yang kompatibel dengan Protégé.
-- [ ] Siapkan data contoh game minimal 8–12 individual.
+- [ ] Siapkan data contoh game minimal 15–20 individual.
 - [ ] Jalankan reasoner dan dokumentasikan query hasil rekomendasi.
 - [ ] Ambil screenshot asli dari Protégé setelah ontology dibuat, bukan gambar generik.

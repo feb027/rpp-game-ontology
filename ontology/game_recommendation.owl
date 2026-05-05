@@ -19,9 +19,9 @@
     <matchesPreference rdf:resource="http://example.org/game-recommendation#PreferMobile"/>
     <matchesPreference rdf:resource="http://example.org/game-recommendation#PreferSinglePlayer"/>
     <matchesPreference rdf:resource="http://example.org/game-recommendation#PreferCoop"/>
-    <matchesPreference rdf:resource="http://example.org/game-recommendation#PreferEasyGame"/>
-    <matchesPreference rdf:resource="http://example.org/game-recommendation#PreferMediumSession"/>
-    <matchesPreference rdf:resource="http://example.org/game-recommendation#PreferLongSession"/>
+    <matchesPreference rdf:resource="http://example.org/game-recommendation#PreferMudah"/>
+    <matchesPreference rdf:resource="http://example.org/game-recommendation#PreferSedang"/>
+    <matchesPreference rdf:resource="http://example.org/game-recommendation#PreferPanjang"/>
     <suitableForMood rdf:resource="http://example.org/game-recommendation#Santai"/>
     <suitableForMood rdf:resource="http://example.org/game-recommendation#Stres"/>
     <availableOn rdf:resource="http://example.org/game-recommendation#PC"/>
@@ -33,32 +33,25 @@
     <hasDuration rdf:resource="http://example.org/game-recommendation#Sedang"/>
     <hasDuration rdf:resource="http://example.org/game-recommendation#Panjang"/>
   </rdf:Description>
-  <rdf:Description rdf:about="http://example.org/game-recommendation#PreferAdventure">
-    <rdf:type rdf:resource="http://www.w3.org/2002/07/owl#NamedIndividual"/>
-    <rdf:type rdf:resource="http://example.org/game-recommendation#PlayerPreference"/>
-    <rdfs:label>PreferAdventure</rdfs:label>
-    <rdfs:comment xml:lang="id">Preferensi game adventure/eksplorasi.</rdfs:comment>
-  </rdf:Description>
-  <rdf:Description rdf:about="http://example.org/game-recommendation#Minecraft">
+  <rdf:Description rdf:about="http://example.org/game-recommendation#Terraria">
     <rdf:type rdf:resource="http://www.w3.org/2002/07/owl#NamedIndividual"/>
     <rdf:type rdf:resource="http://example.org/game-recommendation#Game"/>
     <rdf:type rdf:resource="http://example.org/game-recommendation#ExplorationGame"/>
-    <gameTitle>Minecraft</gameTitle>
-    <rdfs:label>Minecraft</rdfs:label>
+    <gameTitle>Terraria</gameTitle>
+    <rdfs:label>Terraria</rdfs:label>
     <hasGenre rdf:resource="http://example.org/game-recommendation#Adventure"/>
     <hasGenre rdf:resource="http://example.org/game-recommendation#Sandbox"/>
     <matchesPreference rdf:resource="http://example.org/game-recommendation#PreferAdventure"/>
+    <matchesPreference rdf:resource="http://example.org/game-recommendation#PreferSandbox"/>
     <matchesPreference rdf:resource="http://example.org/game-recommendation#PreferPC"/>
     <matchesPreference rdf:resource="http://example.org/game-recommendation#PreferConsole"/>
     <matchesPreference rdf:resource="http://example.org/game-recommendation#PreferMobile"/>
     <matchesPreference rdf:resource="http://example.org/game-recommendation#PreferSinglePlayer"/>
     <matchesPreference rdf:resource="http://example.org/game-recommendation#PreferMultiplayer"/>
     <matchesPreference rdf:resource="http://example.org/game-recommendation#PreferCoop"/>
-    <matchesPreference rdf:resource="http://example.org/game-recommendation#PreferChallengingGame"/>
-    <matchesPreference rdf:resource="http://example.org/game-recommendation#PreferMediumSession"/>
-    <matchesPreference rdf:resource="http://example.org/game-recommendation#PreferLongSession"/>
+    <matchesPreference rdf:resource="http://example.org/game-recommendation#PreferSedang"/>
+    <matchesPreference rdf:resource="http://example.org/game-recommendation#PreferPanjang"/>
     <suitableForMood rdf:resource="http://example.org/game-recommendation#Eksploratif"/>
-    <suitableForMood rdf:resource="http://example.org/game-recommendation#Sosial"/>
     <suitableForMood rdf:resource="http://example.org/game-recommendation#Bosan"/>
     <availableOn rdf:resource="http://example.org/game-recommendation#PC"/>
     <availableOn rdf:resource="http://example.org/game-recommendation#Console"/>
@@ -83,8 +76,8 @@
     <matchesPreference rdf:resource="http://example.org/game-recommendation#PreferConsole"/>
     <matchesPreference rdf:resource="http://example.org/game-recommendation#PreferSinglePlayer"/>
     <matchesPreference rdf:resource="http://example.org/game-recommendation#PreferMultiplayer"/>
-    <matchesPreference rdf:resource="http://example.org/game-recommendation#PreferEasyGame"/>
-    <matchesPreference rdf:resource="http://example.org/game-recommendation#PreferMediumSession"/>
+    <matchesPreference rdf:resource="http://example.org/game-recommendation#PreferMudah"/>
+    <matchesPreference rdf:resource="http://example.org/game-recommendation#PreferSedang"/>
     <suitableForMood rdf:resource="http://example.org/game-recommendation#Santai"/>
     <suitableForMood rdf:resource="http://example.org/game-recommendation#Stres"/>
     <availableOn rdf:resource="http://example.org/game-recommendation#Console"/>
@@ -93,10 +86,168 @@
     <hasDifficulty rdf:resource="http://example.org/game-recommendation#Mudah"/>
     <hasDuration rdf:resource="http://example.org/game-recommendation#Sedang"/>
   </rdf:Description>
-  <rdf:Description rdf:about="http://example.org/game-recommendation#Casual">
+  <rdf:Description rdf:about="http://example.org/game-recommendation#TheSims4">
+    <rdf:type rdf:resource="http://www.w3.org/2002/07/owl#NamedIndividual"/>
+    <rdf:type rdf:resource="http://example.org/game-recommendation#Game"/>
+    <rdf:type rdf:resource="http://example.org/game-recommendation#RelaxingGame"/>
+    <gameTitle>The Sims 4</gameTitle>
+    <rdfs:label>The Sims 4</rdfs:label>
+    <hasGenre rdf:resource="http://example.org/game-recommendation#Simulation"/>
+    <hasGenre rdf:resource="http://example.org/game-recommendation#Casual"/>
+    <matchesPreference rdf:resource="http://example.org/game-recommendation#PreferSimulation"/>
+    <matchesPreference rdf:resource="http://example.org/game-recommendation#PreferCasual"/>
+    <matchesPreference rdf:resource="http://example.org/game-recommendation#PreferPC"/>
+    <matchesPreference rdf:resource="http://example.org/game-recommendation#PreferConsole"/>
+    <matchesPreference rdf:resource="http://example.org/game-recommendation#PreferSinglePlayer"/>
+    <matchesPreference rdf:resource="http://example.org/game-recommendation#PreferMudah"/>
+    <matchesPreference rdf:resource="http://example.org/game-recommendation#PreferSedang"/>
+    <matchesPreference rdf:resource="http://example.org/game-recommendation#PreferPanjang"/>
+    <suitableForMood rdf:resource="http://example.org/game-recommendation#Santai"/>
+    <suitableForMood rdf:resource="http://example.org/game-recommendation#Bosan"/>
+    <availableOn rdf:resource="http://example.org/game-recommendation#PC"/>
+    <availableOn rdf:resource="http://example.org/game-recommendation#Console"/>
+    <hasPlayMode rdf:resource="http://example.org/game-recommendation#SinglePlayer"/>
+    <hasDifficulty rdf:resource="http://example.org/game-recommendation#Mudah"/>
+    <hasDuration rdf:resource="http://example.org/game-recommendation#Sedang"/>
+    <hasDuration rdf:resource="http://example.org/game-recommendation#Panjang"/>
+  </rdf:Description>
+  <rdf:Description rdf:about="http://example.org/game-recommendation#LeagueOfLegends">
+    <rdf:type rdf:resource="http://www.w3.org/2002/07/owl#NamedIndividual"/>
+    <rdf:type rdf:resource="http://example.org/game-recommendation#Game"/>
+    <rdf:type rdf:resource="http://example.org/game-recommendation#CompetitiveGame"/>
+    <gameTitle>League of Legends</gameTitle>
+    <rdfs:label>League of Legends</rdfs:label>
+    <hasGenre rdf:resource="http://example.org/game-recommendation#MOBA"/>
+    <hasGenre rdf:resource="http://example.org/game-recommendation#Strategy"/>
+    <matchesPreference rdf:resource="http://example.org/game-recommendation#PreferMOBA"/>
+    <matchesPreference rdf:resource="http://example.org/game-recommendation#PreferStrategy"/>
+    <matchesPreference rdf:resource="http://example.org/game-recommendation#PreferPC"/>
+    <matchesPreference rdf:resource="http://example.org/game-recommendation#PreferMultiplayer"/>
+    <matchesPreference rdf:resource="http://example.org/game-recommendation#PreferSulit"/>
+    <matchesPreference rdf:resource="http://example.org/game-recommendation#PreferSedang"/>
+    <matchesPreference rdf:resource="http://example.org/game-recommendation#PreferPanjang"/>
+    <suitableForMood rdf:resource="http://example.org/game-recommendation#Kompetitif"/>
+    <suitableForMood rdf:resource="http://example.org/game-recommendation#Sosial"/>
+    <availableOn rdf:resource="http://example.org/game-recommendation#PC"/>
+    <hasPlayMode rdf:resource="http://example.org/game-recommendation#Multiplayer"/>
+    <hasDifficulty rdf:resource="http://example.org/game-recommendation#Sulit"/>
+    <hasDuration rdf:resource="http://example.org/game-recommendation#Sedang"/>
+    <hasDuration rdf:resource="http://example.org/game-recommendation#Panjang"/>
+  </rdf:Description>
+  <rdf:Description rdf:about="http://example.org/game-recommendation#ExplorationGame">
+    <rdf:type rdf:resource="http://www.w3.org/2002/07/owl#Class"/>
+    <rdfs:label>ExplorationGame</rdfs:label>
+    <rdfs:comment xml:lang="id">Game yang cocok untuk eksplorasi.</rdfs:comment>
+    <rdfs:subClassOf rdf:resource="http://example.org/game-recommendation#Game"/>
+  </rdf:Description>
+  <rdf:Description rdf:about="http://example.org/game-recommendation#AmongUs">
+    <rdf:type rdf:resource="http://www.w3.org/2002/07/owl#NamedIndividual"/>
+    <rdf:type rdf:resource="http://example.org/game-recommendation#Game"/>
+    <rdf:type rdf:resource="http://example.org/game-recommendation#SocialGame"/>
+    <gameTitle>Among Us</gameTitle>
+    <rdfs:label>Among Us</rdfs:label>
+    <hasGenre rdf:resource="http://example.org/game-recommendation#Party"/>
+    <hasGenre rdf:resource="http://example.org/game-recommendation#SocialDeduction"/>
+    <matchesPreference rdf:resource="http://example.org/game-recommendation#PreferParty"/>
+    <matchesPreference rdf:resource="http://example.org/game-recommendation#PreferSocialDeduction"/>
+    <matchesPreference rdf:resource="http://example.org/game-recommendation#PreferPC"/>
+    <matchesPreference rdf:resource="http://example.org/game-recommendation#PreferMobile"/>
+    <matchesPreference rdf:resource="http://example.org/game-recommendation#PreferConsole"/>
+    <matchesPreference rdf:resource="http://example.org/game-recommendation#PreferMultiplayer"/>
+    <matchesPreference rdf:resource="http://example.org/game-recommendation#PreferMudah"/>
+    <matchesPreference rdf:resource="http://example.org/game-recommendation#PreferSingkat"/>
+    <suitableForMood rdf:resource="http://example.org/game-recommendation#Sosial"/>
+    <suitableForMood rdf:resource="http://example.org/game-recommendation#Bosan"/>
+    <availableOn rdf:resource="http://example.org/game-recommendation#PC"/>
+    <availableOn rdf:resource="http://example.org/game-recommendation#Mobile"/>
+    <availableOn rdf:resource="http://example.org/game-recommendation#Console"/>
+    <hasPlayMode rdf:resource="http://example.org/game-recommendation#Multiplayer"/>
+    <hasDifficulty rdf:resource="http://example.org/game-recommendation#Mudah"/>
+    <hasDuration rdf:resource="http://example.org/game-recommendation#Singkat"/>
+  </rdf:Description>
+  <rdf:Description rdf:about="http://example.org/game-recommendation#SinglePlayer">
+    <rdf:type rdf:resource="http://www.w3.org/2002/07/owl#NamedIndividual"/>
+    <rdf:type rdf:resource="http://example.org/game-recommendation#PlayMode"/>
+    <rdfs:label>SinglePlayer</rdfs:label>
+  </rdf:Description>
+  <rdf:Description rdf:about="http://example.org/game-recommendation#Recommendation_CounterStrike_Competitive_PC">
+    <rdf:type rdf:resource="http://www.w3.org/2002/07/owl#NamedIndividual"/>
+    <rdf:type rdf:resource="http://example.org/game-recommendation#Recommendation"/>
+    <rdfs:label>Recommendation_CounterStrike_Competitive_PC</rdfs:label>
+    <recommendsGame rdf:resource="http://example.org/game-recommendation#CounterStrike2"/>
+    <basedOnMood rdf:resource="http://example.org/game-recommendation#Kompetitif"/>
+    <basedOnPreference rdf:resource="http://example.org/game-recommendation#PreferFPS"/>
+    <basedOnPreference rdf:resource="http://example.org/game-recommendation#PreferPC"/>
+    <basedOnPreference rdf:resource="http://example.org/game-recommendation#PreferMultiplayer"/>
+    <basedOnPreference rdf:resource="http://example.org/game-recommendation#PreferSingkat"/>
+    <basedOnPreference rdf:resource="http://example.org/game-recommendation#PreferSulit"/>
+    <priorityScore rdf:datatype="http://www.w3.org/2001/XMLSchema#integer">15</priorityScore>
+    <recommendationReason xml:lang="id">Counter-Strike 2 direkomendasikan sebagai opsi kompetitif FPS karena tersedia di PC, mode Multiplayer, sesi Singkat/Sedang, dan difficulty Sulit.</recommendationReason>
+  </rdf:Description>
+  <rdf:Description rdf:about="http://example.org/game-recommendation#Party">
     <rdf:type rdf:resource="http://www.w3.org/2002/07/owl#NamedIndividual"/>
     <rdf:type rdf:resource="http://example.org/game-recommendation#Genre"/>
-    <rdfs:label>Casual</rdfs:label>
+    <rdfs:label>Party</rdfs:label>
+  </rdf:Description>
+  <rdf:Description rdf:about="http://example.org/game-recommendation#CandyCrush">
+    <rdf:type rdf:resource="http://www.w3.org/2002/07/owl#NamedIndividual"/>
+    <rdf:type rdf:resource="http://example.org/game-recommendation#Game"/>
+    <rdf:type rdf:resource="http://example.org/game-recommendation#RelaxingGame"/>
+    <gameTitle>Candy Crush</gameTitle>
+    <rdfs:label>Candy Crush</rdfs:label>
+    <hasGenre rdf:resource="http://example.org/game-recommendation#Puzzle"/>
+    <hasGenre rdf:resource="http://example.org/game-recommendation#Casual"/>
+    <matchesPreference rdf:resource="http://example.org/game-recommendation#PreferPuzzle"/>
+    <matchesPreference rdf:resource="http://example.org/game-recommendation#PreferCasual"/>
+    <matchesPreference rdf:resource="http://example.org/game-recommendation#PreferMobile"/>
+    <matchesPreference rdf:resource="http://example.org/game-recommendation#PreferSinglePlayer"/>
+    <matchesPreference rdf:resource="http://example.org/game-recommendation#PreferMudah"/>
+    <matchesPreference rdf:resource="http://example.org/game-recommendation#PreferSingkat"/>
+    <suitableForMood rdf:resource="http://example.org/game-recommendation#Bosan"/>
+    <suitableForMood rdf:resource="http://example.org/game-recommendation#Santai"/>
+    <availableOn rdf:resource="http://example.org/game-recommendation#Mobile"/>
+    <hasPlayMode rdf:resource="http://example.org/game-recommendation#SinglePlayer"/>
+    <hasDifficulty rdf:resource="http://example.org/game-recommendation#Mudah"/>
+    <hasDuration rdf:resource="http://example.org/game-recommendation#Singkat"/>
+  </rdf:Description>
+  <rdf:Description rdf:about="http://example.org/game-recommendation#Recommendation_Stardew_Stress_PC">
+    <rdf:type rdf:resource="http://www.w3.org/2002/07/owl#NamedIndividual"/>
+    <rdf:type rdf:resource="http://example.org/game-recommendation#Recommendation"/>
+    <rdfs:label>Recommendation_Stardew_Stress_PC</rdfs:label>
+    <recommendsGame rdf:resource="http://example.org/game-recommendation#StardewValley"/>
+    <basedOnMood rdf:resource="http://example.org/game-recommendation#Stres"/>
+    <basedOnPreference rdf:resource="http://example.org/game-recommendation#PreferCasual"/>
+    <basedOnPreference rdf:resource="http://example.org/game-recommendation#PreferPC"/>
+    <basedOnPreference rdf:resource="http://example.org/game-recommendation#PreferSinglePlayer"/>
+    <basedOnPreference rdf:resource="http://example.org/game-recommendation#PreferMudah"/>
+    <basedOnPreference rdf:resource="http://example.org/game-recommendation#PreferSedang"/>
+    <priorityScore rdf:datatype="http://www.w3.org/2001/XMLSchema#integer">15</priorityScore>
+    <recommendationReason xml:lang="id">Stardew Valley direkomendasikan untuk mood Stres karena cocok dengan genre Casual/Simulation, tersedia di PC, mode SinglePlayer, durasi Sedang, dan difficulty Mudah.</recommendationReason>
+  </rdf:Description>
+  <rdf:Description rdf:about="http://example.org/game-recommendation#PreferMOBA">
+    <rdf:type rdf:resource="http://www.w3.org/2002/07/owl#NamedIndividual"/>
+    <rdf:type rdf:resource="http://example.org/game-recommendation#PlayerPreference"/>
+    <rdfs:label>PreferMOBA</rdfs:label>
+    <rdfs:comment xml:lang="id">Preferensi genre MOBA.</rdfs:comment>
+  </rdf:Description>
+  <rdf:Description rdf:about="http://example.org/game-recommendation#Recommendation_Apex_Competitive_Social">
+    <rdf:type rdf:resource="http://www.w3.org/2002/07/owl#NamedIndividual"/>
+    <rdf:type rdf:resource="http://example.org/game-recommendation#Recommendation"/>
+    <rdfs:label>Recommendation_Apex_Competitive_Social</rdfs:label>
+    <recommendsGame rdf:resource="http://example.org/game-recommendation#ApexLegends"/>
+    <basedOnMood rdf:resource="http://example.org/game-recommendation#Kompetitif"/>
+    <basedOnPreference rdf:resource="http://example.org/game-recommendation#PreferFPS"/>
+    <basedOnPreference rdf:resource="http://example.org/game-recommendation#PreferPC"/>
+    <basedOnPreference rdf:resource="http://example.org/game-recommendation#PreferMultiplayer"/>
+    <basedOnPreference rdf:resource="http://example.org/game-recommendation#PreferSingkat"/>
+    <basedOnPreference rdf:resource="http://example.org/game-recommendation#PreferSulit"/>
+    <priorityScore rdf:datatype="http://www.w3.org/2001/XMLSchema#integer">15</priorityScore>
+    <recommendationReason xml:lang="id">Apex Legends direkomendasikan untuk kompetitif sekaligus sosial karena FPS BattleRoyale berbasis tim, mode Multiplayer, dan tersedia di PC/Console.</recommendationReason>
+  </rdf:Description>
+  <rdf:Description rdf:about="http://example.org/game-recommendation#Sandbox">
+    <rdf:type rdf:resource="http://www.w3.org/2002/07/owl#NamedIndividual"/>
+    <rdf:type rdf:resource="http://example.org/game-recommendation#Genre"/>
+    <rdfs:label>Sandbox</rdfs:label>
   </rdf:Description>
   <rdf:Description rdf:about="http://example.org/game-recommendation#priorityScore">
     <rdf:type rdf:resource="http://www.w3.org/2002/07/owl#DatatypeProperty"/>
@@ -104,6 +255,133 @@
     <rdfs:range rdf:resource="http://www.w3.org/2001/XMLSchema#integer"/>
     <rdfs:label>priorityScore</rdfs:label>
     <rdfs:comment xml:lang="id">Skor prioritas rekomendasi.</rdfs:comment>
+  </rdf:Description>
+  <rdf:Description rdf:about="http://example.org/game-recommendation#Mudah">
+    <rdf:type rdf:resource="http://www.w3.org/2002/07/owl#NamedIndividual"/>
+    <rdf:type rdf:resource="http://example.org/game-recommendation#Difficulty"/>
+    <rdfs:label>Mudah</rdfs:label>
+  </rdf:Description>
+  <rdf:Description rdf:about="http://example.org/game-recommendation#availableOn">
+    <rdf:type rdf:resource="http://www.w3.org/2002/07/owl#ObjectProperty"/>
+    <rdfs:domain rdf:resource="http://example.org/game-recommendation#Game"/>
+    <rdfs:range rdf:resource="http://example.org/game-recommendation#Platform"/>
+    <rdfs:label>availableOn</rdfs:label>
+    <rdfs:comment xml:lang="id">Game tersedia pada platform tertentu.</rdfs:comment>
+  </rdf:Description>
+  <rdf:Description rdf:about="http://example.org/game-recommendation#recommendationReason">
+    <rdf:type rdf:resource="http://www.w3.org/2002/07/owl#DatatypeProperty"/>
+    <rdfs:domain rdf:resource="http://example.org/game-recommendation#Recommendation"/>
+    <rdfs:range rdf:resource="http://www.w3.org/2001/XMLSchema#string"/>
+    <rdfs:label>recommendationReason</rdfs:label>
+    <rdfs:comment xml:lang="id">Alasan naratif rekomendasi.</rdfs:comment>
+  </rdf:Description>
+  <rdf:Description rdf:about="http://example.org/game-recommendation#PreferFPS">
+    <rdf:type rdf:resource="http://www.w3.org/2002/07/owl#NamedIndividual"/>
+    <rdf:type rdf:resource="http://example.org/game-recommendation#PlayerPreference"/>
+    <rdfs:label>PreferFPS</rdfs:label>
+    <rdfs:comment xml:lang="id">Preferensi genre FPS.</rdfs:comment>
+  </rdf:Description>
+  <rdf:Description rdf:about="http://example.org/game-recommendation#Singkat">
+    <rdf:type rdf:resource="http://www.w3.org/2002/07/owl#NamedIndividual"/>
+    <rdf:type rdf:resource="http://example.org/game-recommendation#Duration"/>
+    <rdfs:label>Singkat</rdfs:label>
+  </rdf:Description>
+  <rdf:Description rdf:about="http://example.org/game-recommendation#PreferConsole">
+    <rdf:type rdf:resource="http://www.w3.org/2002/07/owl#NamedIndividual"/>
+    <rdf:type rdf:resource="http://example.org/game-recommendation#PlayerPreference"/>
+    <rdfs:label>PreferConsole</rdfs:label>
+    <rdfs:comment xml:lang="id">Preferensi platform Console.</rdfs:comment>
+  </rdf:Description>
+  <rdf:Description rdf:about="http://example.org/game-recommendation#MOBA">
+    <rdf:type rdf:resource="http://www.w3.org/2002/07/owl#NamedIndividual"/>
+    <rdf:type rdf:resource="http://example.org/game-recommendation#Genre"/>
+    <rdfs:label>MOBA</rdfs:label>
+  </rdf:Description>
+  <rdf:Description rdf:about="http://example.org/game-recommendation#PreferSulit">
+    <rdf:type rdf:resource="http://www.w3.org/2002/07/owl#NamedIndividual"/>
+    <rdf:type rdf:resource="http://example.org/game-recommendation#PlayerPreference"/>
+    <rdfs:label>PreferSulit</rdfs:label>
+    <rdfs:comment xml:lang="id">Preferensi difficulty Sulit.</rdfs:comment>
+  </rdf:Description>
+  <rdf:Description rdf:about="http://example.org/game-recommendation#SocialDeduction">
+    <rdf:type rdf:resource="http://www.w3.org/2002/07/owl#NamedIndividual"/>
+    <rdf:type rdf:resource="http://example.org/game-recommendation#Genre"/>
+    <rdfs:label>SocialDeduction</rdfs:label>
+  </rdf:Description>
+  <rdf:Description rdf:about="http://example.org/game-recommendation#basedOnPreference">
+    <rdf:type rdf:resource="http://www.w3.org/2002/07/owl#ObjectProperty"/>
+    <rdfs:domain rdf:resource="http://example.org/game-recommendation#Recommendation"/>
+    <rdfs:range rdf:resource="http://example.org/game-recommendation#PlayerPreference"/>
+    <rdfs:label>basedOnPreference</rdfs:label>
+    <rdfs:comment xml:lang="id">Rekomendasi didasarkan pada preferensi tertentu.</rdfs:comment>
+  </rdf:Description>
+  <rdf:Description rdf:about="http://example.org/game-recommendation#CivilizationVi">
+    <rdf:type rdf:resource="http://www.w3.org/2002/07/owl#NamedIndividual"/>
+    <rdf:type rdf:resource="http://example.org/game-recommendation#Game"/>
+    <rdf:type rdf:resource="http://example.org/game-recommendation#CompetitiveGame"/>
+    <gameTitle>Civilization VI</gameTitle>
+    <rdfs:label>Civilization VI</rdfs:label>
+    <hasGenre rdf:resource="http://example.org/game-recommendation#Strategy"/>
+    <matchesPreference rdf:resource="http://example.org/game-recommendation#PreferStrategy"/>
+    <matchesPreference rdf:resource="http://example.org/game-recommendation#PreferPC"/>
+    <matchesPreference rdf:resource="http://example.org/game-recommendation#PreferConsole"/>
+    <matchesPreference rdf:resource="http://example.org/game-recommendation#PreferMobile"/>
+    <matchesPreference rdf:resource="http://example.org/game-recommendation#PreferSinglePlayer"/>
+    <matchesPreference rdf:resource="http://example.org/game-recommendation#PreferMultiplayer"/>
+    <matchesPreference rdf:resource="http://example.org/game-recommendation#PreferSedang"/>
+    <matchesPreference rdf:resource="http://example.org/game-recommendation#PreferPanjang"/>
+    <suitableForMood rdf:resource="http://example.org/game-recommendation#Kompetitif"/>
+    <suitableForMood rdf:resource="http://example.org/game-recommendation#Eksploratif"/>
+    <availableOn rdf:resource="http://example.org/game-recommendation#PC"/>
+    <availableOn rdf:resource="http://example.org/game-recommendation#Console"/>
+    <availableOn rdf:resource="http://example.org/game-recommendation#Mobile"/>
+    <hasPlayMode rdf:resource="http://example.org/game-recommendation#SinglePlayer"/>
+    <hasPlayMode rdf:resource="http://example.org/game-recommendation#Multiplayer"/>
+    <hasDifficulty rdf:resource="http://example.org/game-recommendation#Sedang"/>
+    <hasDuration rdf:resource="http://example.org/game-recommendation#Panjang"/>
+  </rdf:Description>
+  <rdf:Description rdf:about="http://example.org/game-recommendation#PreferSingkat">
+    <rdf:type rdf:resource="http://www.w3.org/2002/07/owl#NamedIndividual"/>
+    <rdf:type rdf:resource="http://example.org/game-recommendation#PlayerPreference"/>
+    <rdfs:label>PreferSingkat</rdfs:label>
+    <rdfs:comment xml:lang="id">Preferensi durasi Singkat.</rdfs:comment>
+  </rdf:Description>
+  <rdf:Description rdf:about="http://example.org/game-recommendation#Minecraft">
+    <rdf:type rdf:resource="http://www.w3.org/2002/07/owl#NamedIndividual"/>
+    <rdf:type rdf:resource="http://example.org/game-recommendation#Game"/>
+    <rdf:type rdf:resource="http://example.org/game-recommendation#ExplorationGame"/>
+    <gameTitle>Minecraft</gameTitle>
+    <rdfs:label>Minecraft</rdfs:label>
+    <hasGenre rdf:resource="http://example.org/game-recommendation#Adventure"/>
+    <hasGenre rdf:resource="http://example.org/game-recommendation#Sandbox"/>
+    <matchesPreference rdf:resource="http://example.org/game-recommendation#PreferAdventure"/>
+    <matchesPreference rdf:resource="http://example.org/game-recommendation#PreferSandbox"/>
+    <matchesPreference rdf:resource="http://example.org/game-recommendation#PreferPC"/>
+    <matchesPreference rdf:resource="http://example.org/game-recommendation#PreferConsole"/>
+    <matchesPreference rdf:resource="http://example.org/game-recommendation#PreferMobile"/>
+    <matchesPreference rdf:resource="http://example.org/game-recommendation#PreferSinglePlayer"/>
+    <matchesPreference rdf:resource="http://example.org/game-recommendation#PreferMultiplayer"/>
+    <matchesPreference rdf:resource="http://example.org/game-recommendation#PreferCoop"/>
+    <matchesPreference rdf:resource="http://example.org/game-recommendation#PreferSedang"/>
+    <matchesPreference rdf:resource="http://example.org/game-recommendation#PreferPanjang"/>
+    <suitableForMood rdf:resource="http://example.org/game-recommendation#Eksploratif"/>
+    <suitableForMood rdf:resource="http://example.org/game-recommendation#Sosial"/>
+    <suitableForMood rdf:resource="http://example.org/game-recommendation#Bosan"/>
+    <availableOn rdf:resource="http://example.org/game-recommendation#PC"/>
+    <availableOn rdf:resource="http://example.org/game-recommendation#Console"/>
+    <availableOn rdf:resource="http://example.org/game-recommendation#Mobile"/>
+    <hasPlayMode rdf:resource="http://example.org/game-recommendation#SinglePlayer"/>
+    <hasPlayMode rdf:resource="http://example.org/game-recommendation#Multiplayer"/>
+    <hasPlayMode rdf:resource="http://example.org/game-recommendation#Coop"/>
+    <hasDifficulty rdf:resource="http://example.org/game-recommendation#Sedang"/>
+    <hasDuration rdf:resource="http://example.org/game-recommendation#Sedang"/>
+    <hasDuration rdf:resource="http://example.org/game-recommendation#Panjang"/>
+  </rdf:Description>
+  <rdf:Description rdf:about="http://example.org/game-recommendation#Sedang">
+    <rdf:type rdf:resource="http://www.w3.org/2002/07/owl#NamedIndividual"/>
+    <rdf:type rdf:resource="http://example.org/game-recommendation#Duration"/>
+    <rdf:type rdf:resource="http://example.org/game-recommendation#Difficulty"/>
+    <rdfs:label>Sedang</rdfs:label>
   </rdf:Description>
   <rdf:Description rdf:about="http://example.org/game-recommendation#Overcooked2">
     <rdf:type rdf:resource="http://www.w3.org/2002/07/owl#NamedIndividual"/>
@@ -119,9 +397,8 @@
     <matchesPreference rdf:resource="http://example.org/game-recommendation#PreferConsole"/>
     <matchesPreference rdf:resource="http://example.org/game-recommendation#PreferCoop"/>
     <matchesPreference rdf:resource="http://example.org/game-recommendation#PreferMultiplayer"/>
-    <matchesPreference rdf:resource="http://example.org/game-recommendation#PreferChallengingGame"/>
-    <matchesPreference rdf:resource="http://example.org/game-recommendation#PreferShortSession"/>
-    <matchesPreference rdf:resource="http://example.org/game-recommendation#PreferMediumSession"/>
+    <matchesPreference rdf:resource="http://example.org/game-recommendation#PreferSedang"/>
+    <matchesPreference rdf:resource="http://example.org/game-recommendation#PreferSingkat"/>
     <suitableForMood rdf:resource="http://example.org/game-recommendation#Sosial"/>
     <suitableForMood rdf:resource="http://example.org/game-recommendation#Bosan"/>
     <availableOn rdf:resource="http://example.org/game-recommendation#PC"/>
@@ -131,6 +408,165 @@
     <hasDifficulty rdf:resource="http://example.org/game-recommendation#Sedang"/>
     <hasDuration rdf:resource="http://example.org/game-recommendation#Singkat"/>
     <hasDuration rdf:resource="http://example.org/game-recommendation#Sedang"/>
+  </rdf:Description>
+  <rdf:Description rdf:about="http://example.org/game-recommendation#Strategy">
+    <rdf:type rdf:resource="http://www.w3.org/2002/07/owl#NamedIndividual"/>
+    <rdf:type rdf:resource="http://example.org/game-recommendation#Genre"/>
+    <rdfs:label>Strategy</rdfs:label>
+  </rdf:Description>
+  <rdf:Description rdf:about="http://example.org/game-recommendation#Journey">
+    <rdf:type rdf:resource="http://www.w3.org/2002/07/owl#NamedIndividual"/>
+    <rdf:type rdf:resource="http://example.org/game-recommendation#Game"/>
+    <rdf:type rdf:resource="http://example.org/game-recommendation#RelaxingGame"/>
+    <gameTitle>Journey</gameTitle>
+    <rdfs:label>Journey</rdfs:label>
+    <hasGenre rdf:resource="http://example.org/game-recommendation#Adventure"/>
+    <hasGenre rdf:resource="http://example.org/game-recommendation#Casual"/>
+    <matchesPreference rdf:resource="http://example.org/game-recommendation#PreferAdventure"/>
+    <matchesPreference rdf:resource="http://example.org/game-recommendation#PreferCasual"/>
+    <matchesPreference rdf:resource="http://example.org/game-recommendation#PreferPC"/>
+    <matchesPreference rdf:resource="http://example.org/game-recommendation#PreferConsole"/>
+    <matchesPreference rdf:resource="http://example.org/game-recommendation#PreferMobile"/>
+    <matchesPreference rdf:resource="http://example.org/game-recommendation#PreferSinglePlayer"/>
+    <matchesPreference rdf:resource="http://example.org/game-recommendation#PreferMultiplayer"/>
+    <matchesPreference rdf:resource="http://example.org/game-recommendation#PreferMudah"/>
+    <matchesPreference rdf:resource="http://example.org/game-recommendation#PreferSingkat"/>
+    <matchesPreference rdf:resource="http://example.org/game-recommendation#PreferSedang"/>
+    <suitableForMood rdf:resource="http://example.org/game-recommendation#Santai"/>
+    <suitableForMood rdf:resource="http://example.org/game-recommendation#Stres"/>
+    <suitableForMood rdf:resource="http://example.org/game-recommendation#Eksploratif"/>
+    <availableOn rdf:resource="http://example.org/game-recommendation#PC"/>
+    <availableOn rdf:resource="http://example.org/game-recommendation#Console"/>
+    <availableOn rdf:resource="http://example.org/game-recommendation#Mobile"/>
+    <hasPlayMode rdf:resource="http://example.org/game-recommendation#SinglePlayer"/>
+    <hasPlayMode rdf:resource="http://example.org/game-recommendation#Multiplayer"/>
+    <hasDifficulty rdf:resource="http://example.org/game-recommendation#Mudah"/>
+    <hasDuration rdf:resource="http://example.org/game-recommendation#Singkat"/>
+    <hasDuration rdf:resource="http://example.org/game-recommendation#Sedang"/>
+  </rdf:Description>
+  <rdf:Description rdf:about="http://example.org/game-recommendation#Unpacking">
+    <rdf:type rdf:resource="http://www.w3.org/2002/07/owl#NamedIndividual"/>
+    <rdf:type rdf:resource="http://example.org/game-recommendation#Game"/>
+    <rdf:type rdf:resource="http://example.org/game-recommendation#RelaxingGame"/>
+    <gameTitle>Unpacking</gameTitle>
+    <rdfs:label>Unpacking</rdfs:label>
+    <hasGenre rdf:resource="http://example.org/game-recommendation#Puzzle"/>
+    <hasGenre rdf:resource="http://example.org/game-recommendation#Casual"/>
+    <matchesPreference rdf:resource="http://example.org/game-recommendation#PreferPuzzle"/>
+    <matchesPreference rdf:resource="http://example.org/game-recommendation#PreferCasual"/>
+    <matchesPreference rdf:resource="http://example.org/game-recommendation#PreferPC"/>
+    <matchesPreference rdf:resource="http://example.org/game-recommendation#PreferConsole"/>
+    <matchesPreference rdf:resource="http://example.org/game-recommendation#PreferSinglePlayer"/>
+    <matchesPreference rdf:resource="http://example.org/game-recommendation#PreferMudah"/>
+    <matchesPreference rdf:resource="http://example.org/game-recommendation#PreferSingkat"/>
+    <matchesPreference rdf:resource="http://example.org/game-recommendation#PreferSedang"/>
+    <suitableForMood rdf:resource="http://example.org/game-recommendation#Santai"/>
+    <suitableForMood rdf:resource="http://example.org/game-recommendation#Stres"/>
+    <availableOn rdf:resource="http://example.org/game-recommendation#PC"/>
+    <availableOn rdf:resource="http://example.org/game-recommendation#Console"/>
+    <hasPlayMode rdf:resource="http://example.org/game-recommendation#SinglePlayer"/>
+    <hasDifficulty rdf:resource="http://example.org/game-recommendation#Mudah"/>
+    <hasDuration rdf:resource="http://example.org/game-recommendation#Singkat"/>
+    <hasDuration rdf:resource="http://example.org/game-recommendation#Sedang"/>
+  </rdf:Description>
+  <rdf:Description rdf:about="http://example.org/game-recommendation#Recommendation_Unpacking_Stress">
+    <rdf:type rdf:resource="http://www.w3.org/2002/07/owl#NamedIndividual"/>
+    <rdf:type rdf:resource="http://example.org/game-recommendation#Recommendation"/>
+    <rdfs:label>Recommendation_Unpacking_Stress</rdfs:label>
+    <recommendsGame rdf:resource="http://example.org/game-recommendation#Unpacking"/>
+    <basedOnMood rdf:resource="http://example.org/game-recommendation#Stres"/>
+    <basedOnPreference rdf:resource="http://example.org/game-recommendation#PreferCasual"/>
+    <basedOnPreference rdf:resource="http://example.org/game-recommendation#PreferPC"/>
+    <basedOnPreference rdf:resource="http://example.org/game-recommendation#PreferSinglePlayer"/>
+    <basedOnPreference rdf:resource="http://example.org/game-recommendation#PreferMudah"/>
+    <basedOnPreference rdf:resource="http://example.org/game-recommendation#PreferSingkat"/>
+    <priorityScore rdf:datatype="http://www.w3.org/2001/XMLSchema#integer">14</priorityScore>
+    <recommendationReason xml:lang="id">Unpacking cocok untuk mood Stres karena gameplay puzzle-casual ringan, single-player, dan sesi singkat.</recommendationReason>
+  </rdf:Description>
+  <rdf:Description rdf:about="http://example.org/game-recommendation#matchesPreference">
+    <rdf:type rdf:resource="http://www.w3.org/2002/07/owl#ObjectProperty"/>
+    <rdfs:domain rdf:resource="http://example.org/game-recommendation#Game"/>
+    <rdfs:range rdf:resource="http://example.org/game-recommendation#PlayerPreference"/>
+    <rdfs:label>matchesPreference</rdfs:label>
+    <rdfs:comment xml:lang="id">Game cocok dengan preferensi pengguna tertentu.</rdfs:comment>
+  </rdf:Description>
+  <rdf:Description rdf:about="http://example.org/game-recommendation#suitableForMood">
+    <rdf:type rdf:resource="http://www.w3.org/2002/07/owl#ObjectProperty"/>
+    <rdfs:domain rdf:resource="http://example.org/game-recommendation#Game"/>
+    <rdfs:range rdf:resource="http://example.org/game-recommendation#Mood"/>
+    <rdfs:label>suitableForMood</rdfs:label>
+    <rdfs:comment xml:lang="id">Game cocok untuk mood tertentu.</rdfs:comment>
+  </rdf:Description>
+  <rdf:Description rdf:about="http://example.org/game-recommendation#Genre">
+    <rdf:type rdf:resource="http://www.w3.org/2002/07/owl#Class"/>
+    <rdfs:label>Genre</rdfs:label>
+    <rdfs:comment xml:lang="id">Kategori gameplay game.</rdfs:comment>
+  </rdf:Description>
+  <rdf:Description rdf:about="http://example.org/game-recommendation#HollowKnight">
+    <rdf:type rdf:resource="http://www.w3.org/2002/07/owl#NamedIndividual"/>
+    <rdf:type rdf:resource="http://example.org/game-recommendation#Game"/>
+    <rdf:type rdf:resource="http://example.org/game-recommendation#ExplorationGame"/>
+    <gameTitle>Hollow Knight</gameTitle>
+    <rdfs:label>Hollow Knight</rdfs:label>
+    <hasGenre rdf:resource="http://example.org/game-recommendation#Adventure"/>
+    <hasGenre rdf:resource="http://example.org/game-recommendation#Metroidvania"/>
+    <matchesPreference rdf:resource="http://example.org/game-recommendation#PreferAdventure"/>
+    <matchesPreference rdf:resource="http://example.org/game-recommendation#PreferMetroidvania"/>
+    <matchesPreference rdf:resource="http://example.org/game-recommendation#PreferPC"/>
+    <matchesPreference rdf:resource="http://example.org/game-recommendation#PreferConsole"/>
+    <matchesPreference rdf:resource="http://example.org/game-recommendation#PreferSinglePlayer"/>
+    <matchesPreference rdf:resource="http://example.org/game-recommendation#PreferSulit"/>
+    <matchesPreference rdf:resource="http://example.org/game-recommendation#PreferPanjang"/>
+    <suitableForMood rdf:resource="http://example.org/game-recommendation#Eksploratif"/>
+    <availableOn rdf:resource="http://example.org/game-recommendation#PC"/>
+    <availableOn rdf:resource="http://example.org/game-recommendation#Console"/>
+    <hasPlayMode rdf:resource="http://example.org/game-recommendation#SinglePlayer"/>
+    <hasDifficulty rdf:resource="http://example.org/game-recommendation#Sulit"/>
+    <hasDuration rdf:resource="http://example.org/game-recommendation#Panjang"/>
+  </rdf:Description>
+  <rdf:Description rdf:about="http://example.org/game-recommendation#PreferMobile">
+    <rdf:type rdf:resource="http://www.w3.org/2002/07/owl#NamedIndividual"/>
+    <rdf:type rdf:resource="http://example.org/game-recommendation#PlayerPreference"/>
+    <rdfs:label>PreferMobile</rdfs:label>
+    <rdfs:comment xml:lang="id">Preferensi platform Mobile.</rdfs:comment>
+  </rdf:Description>
+  <rdf:Description rdf:about="http://example.org/game-recommendation#PreferCasual">
+    <rdf:type rdf:resource="http://www.w3.org/2002/07/owl#NamedIndividual"/>
+    <rdf:type rdf:resource="http://example.org/game-recommendation#PlayerPreference"/>
+    <rdfs:label>PreferCasual</rdfs:label>
+    <rdfs:comment xml:lang="id">Preferensi genre Casual.</rdfs:comment>
+  </rdf:Description>
+  <rdf:Description rdf:about="http://example.org/game-recommendation#PreferMudah">
+    <rdf:type rdf:resource="http://www.w3.org/2002/07/owl#NamedIndividual"/>
+    <rdf:type rdf:resource="http://example.org/game-recommendation#PlayerPreference"/>
+    <rdfs:label>PreferMudah</rdfs:label>
+    <rdfs:comment xml:lang="id">Preferensi difficulty Mudah.</rdfs:comment>
+  </rdf:Description>
+  <rdf:Description rdf:about="http://example.org/game-recommendation#Valorant">
+    <rdf:type rdf:resource="http://www.w3.org/2002/07/owl#NamedIndividual"/>
+    <rdf:type rdf:resource="http://example.org/game-recommendation#Game"/>
+    <rdf:type rdf:resource="http://example.org/game-recommendation#CompetitiveGame"/>
+    <gameTitle>Valorant</gameTitle>
+    <rdfs:label>Valorant</rdfs:label>
+    <hasGenre rdf:resource="http://example.org/game-recommendation#FPS"/>
+    <matchesPreference rdf:resource="http://example.org/game-recommendation#PreferFPS"/>
+    <matchesPreference rdf:resource="http://example.org/game-recommendation#PreferPC"/>
+    <matchesPreference rdf:resource="http://example.org/game-recommendation#PreferMultiplayer"/>
+    <matchesPreference rdf:resource="http://example.org/game-recommendation#PreferSulit"/>
+    <matchesPreference rdf:resource="http://example.org/game-recommendation#PreferSingkat"/>
+    <matchesPreference rdf:resource="http://example.org/game-recommendation#PreferSedang"/>
+    <suitableForMood rdf:resource="http://example.org/game-recommendation#Kompetitif"/>
+    <suitableForMood rdf:resource="http://example.org/game-recommendation#Sosial"/>
+    <availableOn rdf:resource="http://example.org/game-recommendation#PC"/>
+    <hasPlayMode rdf:resource="http://example.org/game-recommendation#Multiplayer"/>
+    <hasDifficulty rdf:resource="http://example.org/game-recommendation#Sulit"/>
+    <hasDuration rdf:resource="http://example.org/game-recommendation#Singkat"/>
+    <hasDuration rdf:resource="http://example.org/game-recommendation#Sedang"/>
+  </rdf:Description>
+  <rdf:Description rdf:about="http://example.org/game-recommendation#PlayMode">
+    <rdf:type rdf:resource="http://www.w3.org/2002/07/owl#Class"/>
+    <rdfs:label>PlayMode</rdfs:label>
+    <rdfs:comment xml:lang="id">Mode bermain game.</rdfs:comment>
   </rdf:Description>
   <rdf:Description rdf:about="http://example.org/game-recommendation#GenshinImpact">
     <rdf:type rdf:resource="http://www.w3.org/2002/07/owl#NamedIndividual"/>
@@ -147,9 +583,8 @@
     <matchesPreference rdf:resource="http://example.org/game-recommendation#PreferConsole"/>
     <matchesPreference rdf:resource="http://example.org/game-recommendation#PreferSinglePlayer"/>
     <matchesPreference rdf:resource="http://example.org/game-recommendation#PreferCoop"/>
-    <matchesPreference rdf:resource="http://example.org/game-recommendation#PreferChallengingGame"/>
-    <matchesPreference rdf:resource="http://example.org/game-recommendation#PreferMediumSession"/>
-    <matchesPreference rdf:resource="http://example.org/game-recommendation#PreferLongSession"/>
+    <matchesPreference rdf:resource="http://example.org/game-recommendation#PreferSedang"/>
+    <matchesPreference rdf:resource="http://example.org/game-recommendation#PreferPanjang"/>
     <suitableForMood rdf:resource="http://example.org/game-recommendation#Eksploratif"/>
     <suitableForMood rdf:resource="http://example.org/game-recommendation#Santai"/>
     <availableOn rdf:resource="http://example.org/game-recommendation#PC"/>
@@ -161,227 +596,75 @@
     <hasDuration rdf:resource="http://example.org/game-recommendation#Sedang"/>
     <hasDuration rdf:resource="http://example.org/game-recommendation#Panjang"/>
   </rdf:Description>
-  <rdf:Description rdf:about="http://example.org/game-recommendation#availableOn">
-    <rdf:type rdf:resource="http://www.w3.org/2002/07/owl#ObjectProperty"/>
-    <rdfs:domain rdf:resource="http://example.org/game-recommendation#Game"/>
-    <rdfs:range rdf:resource="http://example.org/game-recommendation#Platform"/>
-    <rdfs:label>availableOn</rdfs:label>
-    <rdfs:comment xml:lang="id">Game tersedia pada platform tertentu.</rdfs:comment>
-  </rdf:Description>
-  <rdf:Description rdf:about="http://example.org/game-recommendation#Recommendation_Minecraft_Exploration">
-    <rdf:type rdf:resource="http://www.w3.org/2002/07/owl#NamedIndividual"/>
-    <rdf:type rdf:resource="http://example.org/game-recommendation#Recommendation"/>
-    <rdfs:label>Recommendation_Minecraft_Exploration</rdfs:label>
-    <recommendsGame rdf:resource="http://example.org/game-recommendation#Minecraft"/>
-    <basedOnMood rdf:resource="http://example.org/game-recommendation#Eksploratif"/>
-    <basedOnPreference rdf:resource="http://example.org/game-recommendation#PreferAdventure"/>
-    <basedOnPreference rdf:resource="http://example.org/game-recommendation#PreferPC"/>
-    <basedOnPreference rdf:resource="http://example.org/game-recommendation#PreferMultiplayer"/>
-    <basedOnPreference rdf:resource="http://example.org/game-recommendation#PreferLongSession"/>
-    <priorityScore rdf:datatype="http://www.w3.org/2001/XMLSchema#integer">12</priorityScore>
-    <recommendationReason xml:lang="id">Minecraft direkomendasikan untuk mood Eksploratif karena mendukung eksplorasi, tersedia di banyak platform, dan dapat dimainkan sendiri maupun bersama.</recommendationReason>
-  </rdf:Description>
-  <rdf:Description rdf:about="http://example.org/game-recommendation#hasPlayMode">
-    <rdf:type rdf:resource="http://www.w3.org/2002/07/owl#ObjectProperty"/>
-    <rdfs:domain rdf:resource="http://example.org/game-recommendation#Game"/>
-    <rdfs:range rdf:resource="http://example.org/game-recommendation#PlayMode"/>
-    <rdfs:label>hasPlayMode</rdfs:label>
-    <rdfs:comment xml:lang="id">Game memiliki mode bermain tertentu.</rdfs:comment>
-  </rdf:Description>
-  <rdf:Description rdf:about="http://example.org/game-recommendation#Valorant">
-    <rdf:type rdf:resource="http://www.w3.org/2002/07/owl#NamedIndividual"/>
-    <rdf:type rdf:resource="http://example.org/game-recommendation#Game"/>
-    <rdf:type rdf:resource="http://example.org/game-recommendation#CompetitiveGame"/>
-    <gameTitle>Valorant</gameTitle>
-    <rdfs:label>Valorant</rdfs:label>
-    <hasGenre rdf:resource="http://example.org/game-recommendation#FPS"/>
-    <matchesPreference rdf:resource="http://example.org/game-recommendation#PreferFPS"/>
-    <matchesPreference rdf:resource="http://example.org/game-recommendation#PreferPC"/>
-    <matchesPreference rdf:resource="http://example.org/game-recommendation#PreferMultiplayer"/>
-    <matchesPreference rdf:resource="http://example.org/game-recommendation#PreferChallengingGame"/>
-    <matchesPreference rdf:resource="http://example.org/game-recommendation#PreferShortSession"/>
-    <matchesPreference rdf:resource="http://example.org/game-recommendation#PreferMediumSession"/>
-    <suitableForMood rdf:resource="http://example.org/game-recommendation#Kompetitif"/>
-    <suitableForMood rdf:resource="http://example.org/game-recommendation#Sosial"/>
-    <availableOn rdf:resource="http://example.org/game-recommendation#PC"/>
-    <hasPlayMode rdf:resource="http://example.org/game-recommendation#Multiplayer"/>
-    <hasDifficulty rdf:resource="http://example.org/game-recommendation#Sulit"/>
-    <hasDuration rdf:resource="http://example.org/game-recommendation#Singkat"/>
-    <hasDuration rdf:resource="http://example.org/game-recommendation#Sedang"/>
-  </rdf:Description>
-  <rdf:Description rdf:about="http://example.org/game-recommendation#PreferParty">
-    <rdf:type rdf:resource="http://www.w3.org/2002/07/owl#NamedIndividual"/>
-    <rdf:type rdf:resource="http://example.org/game-recommendation#PlayerPreference"/>
-    <rdfs:label>PreferParty</rdfs:label>
-    <rdfs:comment xml:lang="id">Preferensi game party/social.</rdfs:comment>
-  </rdf:Description>
-  <rdf:Description rdf:about="http://example.org/game-recommendation#gameTitle">
-    <rdf:type rdf:resource="http://www.w3.org/2002/07/owl#DatatypeProperty"/>
-    <rdfs:domain rdf:resource="http://example.org/game-recommendation#Game"/>
-    <rdfs:range rdf:resource="http://www.w3.org/2001/XMLSchema#string"/>
-    <rdfs:label>gameTitle</rdfs:label>
-    <rdfs:comment xml:lang="id">Judul game.</rdfs:comment>
-  </rdf:Description>
-  <rdf:Description rdf:about="http://example.org/game-recommendation#PreferPC">
-    <rdf:type rdf:resource="http://www.w3.org/2002/07/owl#NamedIndividual"/>
-    <rdf:type rdf:resource="http://example.org/game-recommendation#PlayerPreference"/>
-    <rdfs:label>PreferPC</rdfs:label>
-    <rdfs:comment xml:lang="id">Preferensi platform PC.</rdfs:comment>
-  </rdf:Description>
-  <rdf:Description rdf:about="http://example.org/game-recommendation#Mudah">
-    <rdf:type rdf:resource="http://www.w3.org/2002/07/owl#NamedIndividual"/>
-    <rdf:type rdf:resource="http://example.org/game-recommendation#Difficulty"/>
-    <rdfs:label>Mudah</rdfs:label>
-  </rdf:Description>
-  <rdf:Description rdf:about="http://example.org/game-recommendation#hasDuration">
-    <rdf:type rdf:resource="http://www.w3.org/2002/07/owl#ObjectProperty"/>
-    <rdfs:domain rdf:resource="http://example.org/game-recommendation#Game"/>
-    <rdfs:range rdf:resource="http://example.org/game-recommendation#Duration"/>
-    <rdfs:label>hasDuration</rdfs:label>
-    <rdfs:comment xml:lang="id">Game cocok untuk durasi sesi tertentu.</rdfs:comment>
-  </rdf:Description>
-  <rdf:Description rdf:about="http://example.org/game-recommendation#PreferFPS">
-    <rdf:type rdf:resource="http://www.w3.org/2002/07/owl#NamedIndividual"/>
-    <rdf:type rdf:resource="http://example.org/game-recommendation#PlayerPreference"/>
-    <rdfs:label>PreferFPS</rdfs:label>
-    <rdfs:comment xml:lang="id">Preferensi game FPS.</rdfs:comment>
-  </rdf:Description>
-  <rdf:Description rdf:about="http://example.org/game-recommendation#PlayerPreference">
-    <rdf:type rdf:resource="http://www.w3.org/2002/07/owl#Class"/>
-    <rdfs:label>PlayerPreference</rdfs:label>
-    <rdfs:comment xml:lang="id">Preferensi pengguna dalam memilih game.</rdfs:comment>
-  </rdf:Description>
-  <rdf:Description rdf:about="http://example.org/game-recommendation#suitableForMood">
-    <rdf:type rdf:resource="http://www.w3.org/2002/07/owl#ObjectProperty"/>
-    <rdfs:domain rdf:resource="http://example.org/game-recommendation#Game"/>
-    <rdfs:range rdf:resource="http://example.org/game-recommendation#Mood"/>
-    <rdfs:label>suitableForMood</rdfs:label>
-    <rdfs:comment xml:lang="id">Game cocok untuk mood tertentu.</rdfs:comment>
-  </rdf:Description>
-  <rdf:Description rdf:about="http://example.org/game-recommendation#recommendationReason">
-    <rdf:type rdf:resource="http://www.w3.org/2002/07/owl#DatatypeProperty"/>
-    <rdfs:domain rdf:resource="http://example.org/game-recommendation#Recommendation"/>
-    <rdfs:range rdf:resource="http://www.w3.org/2001/XMLSchema#string"/>
-    <rdfs:label>recommendationReason</rdfs:label>
-    <rdfs:comment xml:lang="id">Alasan naratif rekomendasi.</rdfs:comment>
-  </rdf:Description>
-  <rdf:Description rdf:about="http://example.org/game-recommendation#Puzzle">
+  <rdf:Description rdf:about="http://example.org/game-recommendation#Metroidvania">
     <rdf:type rdf:resource="http://www.w3.org/2002/07/owl#NamedIndividual"/>
     <rdf:type rdf:resource="http://example.org/game-recommendation#Genre"/>
-    <rdfs:label>Puzzle</rdfs:label>
+    <rdfs:label>Metroidvania</rdfs:label>
+  </rdf:Description>
+  <rdf:Description rdf:about="http://example.org/game-recommendation#Recommendation_Valorant_Competitive_PC">
+    <rdf:type rdf:resource="http://www.w3.org/2002/07/owl#NamedIndividual"/>
+    <rdf:type rdf:resource="http://example.org/game-recommendation#Recommendation"/>
+    <rdfs:label>Recommendation_Valorant_Competitive_PC</rdfs:label>
+    <recommendsGame rdf:resource="http://example.org/game-recommendation#Valorant"/>
+    <basedOnMood rdf:resource="http://example.org/game-recommendation#Kompetitif"/>
+    <basedOnPreference rdf:resource="http://example.org/game-recommendation#PreferFPS"/>
+    <basedOnPreference rdf:resource="http://example.org/game-recommendation#PreferPC"/>
+    <basedOnPreference rdf:resource="http://example.org/game-recommendation#PreferMultiplayer"/>
+    <basedOnPreference rdf:resource="http://example.org/game-recommendation#PreferSingkat"/>
+    <basedOnPreference rdf:resource="http://example.org/game-recommendation#PreferSulit"/>
+    <priorityScore rdf:datatype="http://www.w3.org/2001/XMLSchema#integer">15</priorityScore>
+    <recommendationReason xml:lang="id">Valorant direkomendasikan untuk mood Kompetitif karena genre FPS, tersedia di PC, mode Multiplayer, durasi Singkat/Sedang, dan difficulty Sulit.</recommendationReason>
+  </rdf:Description>
+  <rdf:Description rdf:about="http://example.org/game-recommendation#PreferSedang">
+    <rdf:type rdf:resource="http://www.w3.org/2002/07/owl#NamedIndividual"/>
+    <rdf:type rdf:resource="http://example.org/game-recommendation#PlayerPreference"/>
+    <rdfs:label>PreferSedang</rdfs:label>
+    <rdfs:comment xml:lang="id">Preferensi difficulty Sedang.</rdfs:comment>
   </rdf:Description>
   <rdf:Description rdf:about="http://example.org/game-recommendation#Difficulty">
     <rdf:type rdf:resource="http://www.w3.org/2002/07/owl#Class"/>
     <rdfs:label>Difficulty</rdfs:label>
     <rdfs:comment xml:lang="id">Tingkat kesulitan game.</rdfs:comment>
   </rdf:Description>
-  <rdf:Description rdf:about="http://example.org/game-recommendation#Sosial">
-    <rdf:type rdf:resource="http://www.w3.org/2002/07/owl#NamedIndividual"/>
-    <rdf:type rdf:resource="http://example.org/game-recommendation#Mood"/>
-    <rdfs:label>Sosial</rdfs:label>
+  <rdf:Description rdf:about="http://example.org/game-recommendation#Platform">
+    <rdf:type rdf:resource="http://www.w3.org/2002/07/owl#Class"/>
+    <rdfs:label>Platform</rdfs:label>
+    <rdfs:comment xml:lang="id">Perangkat tempat game dimainkan.</rdfs:comment>
   </rdf:Description>
-  <rdf:Description rdf:about="http://example.org/game-recommendation#matchesPreference">
-    <rdf:type rdf:resource="http://www.w3.org/2002/07/owl#ObjectProperty"/>
-    <rdfs:domain rdf:resource="http://example.org/game-recommendation#Game"/>
-    <rdfs:range rdf:resource="http://example.org/game-recommendation#PlayerPreference"/>
-    <rdfs:label>matchesPreference</rdfs:label>
-    <rdfs:comment xml:lang="id">Game cocok dengan preferensi pengguna tertentu.</rdfs:comment>
-  </rdf:Description>
-  <rdf:Description rdf:about="http://example.org/game-recommendation#PreferSimulation">
+  <rdf:Description rdf:about="http://example.org/game-recommendation#ApexLegends">
     <rdf:type rdf:resource="http://www.w3.org/2002/07/owl#NamedIndividual"/>
-    <rdf:type rdf:resource="http://example.org/game-recommendation#PlayerPreference"/>
-    <rdfs:label>PreferSimulation</rdfs:label>
-    <rdfs:comment xml:lang="id">Preferensi game simulation.</rdfs:comment>
+    <rdf:type rdf:resource="http://example.org/game-recommendation#Game"/>
+    <rdf:type rdf:resource="http://example.org/game-recommendation#CompetitiveGame"/>
+    <gameTitle>Apex Legends</gameTitle>
+    <rdfs:label>Apex Legends</rdfs:label>
+    <hasGenre rdf:resource="http://example.org/game-recommendation#FPS"/>
+    <hasGenre rdf:resource="http://example.org/game-recommendation#BattleRoyale"/>
+    <matchesPreference rdf:resource="http://example.org/game-recommendation#PreferFPS"/>
+    <matchesPreference rdf:resource="http://example.org/game-recommendation#PreferBattleRoyale"/>
+    <matchesPreference rdf:resource="http://example.org/game-recommendation#PreferPC"/>
+    <matchesPreference rdf:resource="http://example.org/game-recommendation#PreferConsole"/>
+    <matchesPreference rdf:resource="http://example.org/game-recommendation#PreferMultiplayer"/>
+    <matchesPreference rdf:resource="http://example.org/game-recommendation#PreferSulit"/>
+    <matchesPreference rdf:resource="http://example.org/game-recommendation#PreferSingkat"/>
+    <matchesPreference rdf:resource="http://example.org/game-recommendation#PreferSedang"/>
+    <suitableForMood rdf:resource="http://example.org/game-recommendation#Kompetitif"/>
+    <suitableForMood rdf:resource="http://example.org/game-recommendation#Sosial"/>
+    <availableOn rdf:resource="http://example.org/game-recommendation#PC"/>
+    <availableOn rdf:resource="http://example.org/game-recommendation#Console"/>
+    <hasPlayMode rdf:resource="http://example.org/game-recommendation#Multiplayer"/>
+    <hasDifficulty rdf:resource="http://example.org/game-recommendation#Sulit"/>
+    <hasDuration rdf:resource="http://example.org/game-recommendation#Singkat"/>
+    <hasDuration rdf:resource="http://example.org/game-recommendation#Sedang"/>
   </rdf:Description>
-  <rdf:Description rdf:about="http://example.org/game-recommendation#Console">
-    <rdf:type rdf:resource="http://www.w3.org/2002/07/owl#NamedIndividual"/>
-    <rdf:type rdf:resource="http://example.org/game-recommendation#Platform"/>
-    <rdfs:label>Console</rdfs:label>
-  </rdf:Description>
-  <rdf:Description rdf:about="http://example.org/game-recommendation#PreferMultiplayer">
-    <rdf:type rdf:resource="http://www.w3.org/2002/07/owl#NamedIndividual"/>
-    <rdf:type rdf:resource="http://example.org/game-recommendation#PlayerPreference"/>
-    <rdfs:label>PreferMultiplayer</rdfs:label>
-    <rdfs:comment xml:lang="id">Preferensi mode multiplayer.</rdfs:comment>
-  </rdf:Description>
-  <rdf:Description rdf:about="http://example.org/game-recommendation#Singkat">
-    <rdf:type rdf:resource="http://www.w3.org/2002/07/owl#NamedIndividual"/>
-    <rdf:type rdf:resource="http://example.org/game-recommendation#Duration"/>
-    <rdfs:label>Singkat</rdfs:label>
+  <rdf:Description rdf:about="http://example.org/game-recommendation#Game">
+    <rdf:type rdf:resource="http://www.w3.org/2002/07/owl#Class"/>
+    <rdfs:label>Game</rdfs:label>
+    <rdfs:comment xml:lang="id">Entitas game yang dapat direkomendasikan.</rdfs:comment>
   </rdf:Description>
   <rdf:Description rdf:about="http://example.org/game-recommendation#RPG">
     <rdf:type rdf:resource="http://www.w3.org/2002/07/owl#NamedIndividual"/>
     <rdf:type rdf:resource="http://example.org/game-recommendation#Genre"/>
     <rdfs:label>RPG</rdfs:label>
-  </rdf:Description>
-  <rdf:Description rdf:about="http://example.org/game-recommendation#basedOnPreference">
-    <rdf:type rdf:resource="http://www.w3.org/2002/07/owl#ObjectProperty"/>
-    <rdfs:domain rdf:resource="http://example.org/game-recommendation#Recommendation"/>
-    <rdfs:range rdf:resource="http://example.org/game-recommendation#PlayerPreference"/>
-    <rdfs:label>basedOnPreference</rdfs:label>
-    <rdfs:comment xml:lang="id">Rekomendasi didasarkan pada preferensi tertentu.</rdfs:comment>
-  </rdf:Description>
-  <rdf:Description rdf:about="http://example.org/game-recommendation#CompetitiveGame">
-    <rdf:type rdf:resource="http://www.w3.org/2002/07/owl#Class"/>
-    <rdfs:label>CompetitiveGame</rdfs:label>
-    <rdfs:comment xml:lang="id">Game yang cocok untuk mood kompetitif.</rdfs:comment>
-    <rdfs:subClassOf rdf:resource="http://example.org/game-recommendation#Game"/>
-  </rdf:Description>
-  <rdf:Description rdf:about="http://example.org/game-recommendation#PreferChallengingGame">
-    <rdf:type rdf:resource="http://www.w3.org/2002/07/owl#NamedIndividual"/>
-    <rdf:type rdf:resource="http://example.org/game-recommendation#PlayerPreference"/>
-    <rdfs:label>PreferChallengingGame</rdfs:label>
-    <rdfs:comment xml:lang="id">Preferensi game menantang.</rdfs:comment>
-  </rdf:Description>
-  <rdf:Description rdf:about="http://example.org/game-recommendation#CandyCrush">
-    <rdf:type rdf:resource="http://www.w3.org/2002/07/owl#NamedIndividual"/>
-    <rdf:type rdf:resource="http://example.org/game-recommendation#Game"/>
-    <rdf:type rdf:resource="http://example.org/game-recommendation#RelaxingGame"/>
-    <gameTitle>Candy Crush</gameTitle>
-    <rdfs:label>Candy Crush</rdfs:label>
-    <hasGenre rdf:resource="http://example.org/game-recommendation#Puzzle"/>
-    <hasGenre rdf:resource="http://example.org/game-recommendation#Casual"/>
-    <matchesPreference rdf:resource="http://example.org/game-recommendation#PreferPuzzle"/>
-    <matchesPreference rdf:resource="http://example.org/game-recommendation#PreferCasual"/>
-    <matchesPreference rdf:resource="http://example.org/game-recommendation#PreferMobile"/>
-    <matchesPreference rdf:resource="http://example.org/game-recommendation#PreferSinglePlayer"/>
-    <matchesPreference rdf:resource="http://example.org/game-recommendation#PreferEasyGame"/>
-    <matchesPreference rdf:resource="http://example.org/game-recommendation#PreferShortSession"/>
-    <suitableForMood rdf:resource="http://example.org/game-recommendation#Bosan"/>
-    <suitableForMood rdf:resource="http://example.org/game-recommendation#Santai"/>
-    <availableOn rdf:resource="http://example.org/game-recommendation#Mobile"/>
-    <hasPlayMode rdf:resource="http://example.org/game-recommendation#SinglePlayer"/>
-    <hasDifficulty rdf:resource="http://example.org/game-recommendation#Mudah"/>
-    <hasDuration rdf:resource="http://example.org/game-recommendation#Singkat"/>
-  </rdf:Description>
-  <rdf:Description rdf:about="http://example.org/game-recommendation#Sandbox">
-    <rdf:type rdf:resource="http://www.w3.org/2002/07/owl#NamedIndividual"/>
-    <rdf:type rdf:resource="http://example.org/game-recommendation#Genre"/>
-    <rdfs:label>Sandbox</rdfs:label>
-  </rdf:Description>
-  <rdf:Description rdf:about="http://example.org/game-recommendation#hasDifficulty">
-    <rdf:type rdf:resource="http://www.w3.org/2002/07/owl#ObjectProperty"/>
-    <rdfs:domain rdf:resource="http://example.org/game-recommendation#Game"/>
-    <rdfs:range rdf:resource="http://example.org/game-recommendation#Difficulty"/>
-    <rdfs:label>hasDifficulty</rdfs:label>
-    <rdfs:comment xml:lang="id">Game memiliki tingkat kesulitan tertentu.</rdfs:comment>
-  </rdf:Description>
-  <rdf:Description rdf:about="http://example.org/game-recommendation#RelaxingGame">
-    <rdf:type rdf:resource="http://www.w3.org/2002/07/owl#Class"/>
-    <rdfs:label>RelaxingGame</rdfs:label>
-    <rdfs:comment xml:lang="id">Game yang cocok untuk suasana santai atau mengurangi stres.</rdfs:comment>
-    <rdfs:subClassOf rdf:resource="http://example.org/game-recommendation#Game"/>
-  </rdf:Description>
-  <rdf:Description rdf:about="http://example.org/game-recommendation#Bosan">
-    <rdf:type rdf:resource="http://www.w3.org/2002/07/owl#NamedIndividual"/>
-    <rdf:type rdf:resource="http://example.org/game-recommendation#Mood"/>
-    <rdfs:label>Bosan</rdfs:label>
-  </rdf:Description>
-  <rdf:Description rdf:about="http://example.org/game-recommendation#PreferPuzzle">
-    <rdf:type rdf:resource="http://www.w3.org/2002/07/owl#NamedIndividual"/>
-    <rdf:type rdf:resource="http://example.org/game-recommendation#PlayerPreference"/>
-    <rdfs:label>PreferPuzzle</rdfs:label>
-    <rdfs:comment xml:lang="id">Preferensi game puzzle.</rdfs:comment>
   </rdf:Description>
   <rdf:Description rdf:about="http://example.org/game-recommendation#TheWitcher3">
     <rdf:type rdf:resource="http://www.w3.org/2002/07/owl#NamedIndividual"/>
@@ -396,152 +679,14 @@
     <matchesPreference rdf:resource="http://example.org/game-recommendation#PreferPC"/>
     <matchesPreference rdf:resource="http://example.org/game-recommendation#PreferConsole"/>
     <matchesPreference rdf:resource="http://example.org/game-recommendation#PreferSinglePlayer"/>
-    <matchesPreference rdf:resource="http://example.org/game-recommendation#PreferChallengingGame"/>
-    <matchesPreference rdf:resource="http://example.org/game-recommendation#PreferLongSession"/>
+    <matchesPreference rdf:resource="http://example.org/game-recommendation#PreferSedang"/>
+    <matchesPreference rdf:resource="http://example.org/game-recommendation#PreferPanjang"/>
     <suitableForMood rdf:resource="http://example.org/game-recommendation#Eksploratif"/>
     <availableOn rdf:resource="http://example.org/game-recommendation#PC"/>
     <availableOn rdf:resource="http://example.org/game-recommendation#Console"/>
     <hasPlayMode rdf:resource="http://example.org/game-recommendation#SinglePlayer"/>
     <hasDifficulty rdf:resource="http://example.org/game-recommendation#Sedang"/>
     <hasDuration rdf:resource="http://example.org/game-recommendation#Panjang"/>
-  </rdf:Description>
-  <rdf:Description rdf:about="http://example.org/game-recommendation#PreferConsole">
-    <rdf:type rdf:resource="http://www.w3.org/2002/07/owl#NamedIndividual"/>
-    <rdf:type rdf:resource="http://example.org/game-recommendation#PlayerPreference"/>
-    <rdfs:label>PreferConsole</rdfs:label>
-    <rdfs:comment xml:lang="id">Preferensi platform Console.</rdfs:comment>
-  </rdf:Description>
-  <rdf:Description rdf:about="http://example.org/game-recommendation#Mobile">
-    <rdf:type rdf:resource="http://www.w3.org/2002/07/owl#NamedIndividual"/>
-    <rdf:type rdf:resource="http://example.org/game-recommendation#Platform"/>
-    <rdfs:label>Mobile</rdfs:label>
-  </rdf:Description>
-  <rdf:Description rdf:about="http://example.org/game-recommendation#Recommendation_Stardew_Stress_PC">
-    <rdf:type rdf:resource="http://www.w3.org/2002/07/owl#NamedIndividual"/>
-    <rdf:type rdf:resource="http://example.org/game-recommendation#Recommendation"/>
-    <rdfs:label>Recommendation_Stardew_Stress_PC</rdfs:label>
-    <recommendsGame rdf:resource="http://example.org/game-recommendation#StardewValley"/>
-    <basedOnMood rdf:resource="http://example.org/game-recommendation#Stres"/>
-    <basedOnPreference rdf:resource="http://example.org/game-recommendation#PreferCasual"/>
-    <basedOnPreference rdf:resource="http://example.org/game-recommendation#PreferPC"/>
-    <basedOnPreference rdf:resource="http://example.org/game-recommendation#PreferSinglePlayer"/>
-    <basedOnPreference rdf:resource="http://example.org/game-recommendation#PreferEasyGame"/>
-    <basedOnPreference rdf:resource="http://example.org/game-recommendation#PreferMediumSession"/>
-    <priorityScore rdf:datatype="http://www.w3.org/2001/XMLSchema#integer">15</priorityScore>
-    <recommendationReason xml:lang="id">Stardew Valley direkomendasikan untuk mood Stres karena cocok dengan genre Casual/Simulation, tersedia di PC, mode SinglePlayer, durasi Sedang, dan difficulty Mudah.</recommendationReason>
-  </rdf:Description>
-  <rdf:Description rdf:about="http://example.org/game-recommendation#SocialGame">
-    <rdf:type rdf:resource="http://www.w3.org/2002/07/owl#Class"/>
-    <rdfs:label>SocialGame</rdfs:label>
-    <rdfs:comment xml:lang="id">Game yang cocok untuk bermain sosial.</rdfs:comment>
-    <rdfs:subClassOf rdf:resource="http://example.org/game-recommendation#Game"/>
-  </rdf:Description>
-  <rdf:Description rdf:about="http://example.org/game-recommendation#PreferMediumSession">
-    <rdf:type rdf:resource="http://www.w3.org/2002/07/owl#NamedIndividual"/>
-    <rdf:type rdf:resource="http://example.org/game-recommendation#PlayerPreference"/>
-    <rdfs:label>PreferMediumSession</rdfs:label>
-    <rdfs:comment xml:lang="id">Preferensi durasi sedang.</rdfs:comment>
-  </rdf:Description>
-  <rdf:Description rdf:about="http://example.org/game-recommendation#Santai">
-    <rdf:type rdf:resource="http://www.w3.org/2002/07/owl#NamedIndividual"/>
-    <rdf:type rdf:resource="http://example.org/game-recommendation#Mood"/>
-    <rdfs:label>Santai</rdfs:label>
-  </rdf:Description>
-  <rdf:Description rdf:about="http://example.org/game-recommendation#Genre">
-    <rdf:type rdf:resource="http://www.w3.org/2002/07/owl#Class"/>
-    <rdfs:label>Genre</rdfs:label>
-    <rdfs:comment xml:lang="id">Kategori gameplay game.</rdfs:comment>
-  </rdf:Description>
-  <rdf:Description rdf:about="http://example.org/game-recommendation#PreferLongSession">
-    <rdf:type rdf:resource="http://www.w3.org/2002/07/owl#NamedIndividual"/>
-    <rdf:type rdf:resource="http://example.org/game-recommendation#PlayerPreference"/>
-    <rdfs:label>PreferLongSession</rdfs:label>
-    <rdfs:comment xml:lang="id">Preferensi durasi panjang.</rdfs:comment>
-  </rdf:Description>
-  <rdf:Description rdf:about="http://example.org/game-recommendation#Stres">
-    <rdf:type rdf:resource="http://www.w3.org/2002/07/owl#NamedIndividual"/>
-    <rdf:type rdf:resource="http://example.org/game-recommendation#Mood"/>
-    <rdfs:label>Stres</rdfs:label>
-  </rdf:Description>
-  <rdf:Description rdf:about="http://example.org/game-recommendation#Panjang">
-    <rdf:type rdf:resource="http://www.w3.org/2002/07/owl#NamedIndividual"/>
-    <rdf:type rdf:resource="http://example.org/game-recommendation#Duration"/>
-    <rdfs:label>Panjang</rdfs:label>
-  </rdf:Description>
-  <rdf:Description rdf:about="http://example.org/game-recommendation#PreferEasyGame">
-    <rdf:type rdf:resource="http://www.w3.org/2002/07/owl#NamedIndividual"/>
-    <rdf:type rdf:resource="http://example.org/game-recommendation#PlayerPreference"/>
-    <rdfs:label>PreferEasyGame</rdfs:label>
-    <rdfs:comment xml:lang="id">Preferensi game mudah.</rdfs:comment>
-  </rdf:Description>
-  <rdf:Description rdf:about="http://example.org/game-recommendation#Kompetitif">
-    <rdf:type rdf:resource="http://www.w3.org/2002/07/owl#NamedIndividual"/>
-    <rdf:type rdf:resource="http://example.org/game-recommendation#Mood"/>
-    <rdfs:label>Kompetitif</rdfs:label>
-  </rdf:Description>
-  <rdf:Description rdf:about="http://example.org/game-recommendation#Party">
-    <rdf:type rdf:resource="http://www.w3.org/2002/07/owl#NamedIndividual"/>
-    <rdf:type rdf:resource="http://example.org/game-recommendation#Genre"/>
-    <rdfs:label>Party</rdfs:label>
-  </rdf:Description>
-  <rdf:Description rdf:about="http://example.org/game-recommendation#Game">
-    <rdf:type rdf:resource="http://www.w3.org/2002/07/owl#Class"/>
-    <rdfs:label>Game</rdfs:label>
-    <rdfs:comment xml:lang="id">Entitas game yang dapat direkomendasikan.</rdfs:comment>
-  </rdf:Description>
-  <rdf:Description rdf:about="http://example.org/game-recommendation#hasGenre">
-    <rdf:type rdf:resource="http://www.w3.org/2002/07/owl#ObjectProperty"/>
-    <rdfs:domain rdf:resource="http://example.org/game-recommendation#Game"/>
-    <rdfs:range rdf:resource="http://example.org/game-recommendation#Genre"/>
-    <rdfs:label>hasGenre</rdfs:label>
-    <rdfs:comment xml:lang="id">Game memiliki genre tertentu.</rdfs:comment>
-  </rdf:Description>
-  <rdf:Description rdf:about="http://example.org/game-recommendation#Duration">
-    <rdf:type rdf:resource="http://www.w3.org/2002/07/owl#Class"/>
-    <rdfs:label>Duration</rdfs:label>
-    <rdfs:comment xml:lang="id">Estimasi durasi sesi bermain.</rdfs:comment>
-  </rdf:Description>
-  <rdf:Description rdf:about="http://example.org/game-recommendation#PreferSinglePlayer">
-    <rdf:type rdf:resource="http://www.w3.org/2002/07/owl#NamedIndividual"/>
-    <rdf:type rdf:resource="http://example.org/game-recommendation#PlayerPreference"/>
-    <rdfs:label>PreferSinglePlayer</rdfs:label>
-    <rdfs:comment xml:lang="id">Preferensi mode single-player.</rdfs:comment>
-  </rdf:Description>
-  <rdf:Description rdf:about="http://example.org/game-recommendation#Simulation">
-    <rdf:type rdf:resource="http://www.w3.org/2002/07/owl#NamedIndividual"/>
-    <rdf:type rdf:resource="http://example.org/game-recommendation#Genre"/>
-    <rdfs:label>Simulation</rdfs:label>
-  </rdf:Description>
-  <rdf:Description rdf:about="http://example.org/game-recommendation#Recommendation_Valorant_Competitive_PC">
-    <rdf:type rdf:resource="http://www.w3.org/2002/07/owl#NamedIndividual"/>
-    <rdf:type rdf:resource="http://example.org/game-recommendation#Recommendation"/>
-    <rdfs:label>Recommendation_Valorant_Competitive_PC</rdfs:label>
-    <recommendsGame rdf:resource="http://example.org/game-recommendation#Valorant"/>
-    <basedOnMood rdf:resource="http://example.org/game-recommendation#Kompetitif"/>
-    <basedOnPreference rdf:resource="http://example.org/game-recommendation#PreferFPS"/>
-    <basedOnPreference rdf:resource="http://example.org/game-recommendation#PreferPC"/>
-    <basedOnPreference rdf:resource="http://example.org/game-recommendation#PreferMultiplayer"/>
-    <basedOnPreference rdf:resource="http://example.org/game-recommendation#PreferShortSession"/>
-    <basedOnPreference rdf:resource="http://example.org/game-recommendation#PreferChallengingGame"/>
-    <priorityScore rdf:datatype="http://www.w3.org/2001/XMLSchema#integer">14</priorityScore>
-    <recommendationReason xml:lang="id">Valorant direkomendasikan untuk mood Kompetitif karena genre FPS, tersedia di PC, mode Multiplayer, durasi Singkat/Sedang, dan difficulty Sulit.</recommendationReason>
-  </rdf:Description>
-  <rdf:Description rdf:about="http://example.org/game-recommendation#GameRecommendationOntology">
-    <rdf:type rdf:resource="http://www.w3.org/2002/07/owl#Ontology"/>
-    <rdfs:label xml:lang="id">Ontologi Rekomendasi Game Berdasarkan Preferensi dan Mood</rdfs:label>
-    <rdfs:comment xml:lang="id">Ontologi tugas besar RPP untuk memodelkan game, mood, preferensi bermain, dan rekomendasi berbasis pengetahuan.</rdfs:comment>
-  </rdf:Description>
-  <rdf:Description rdf:about="http://example.org/game-recommendation#Sulit">
-    <rdf:type rdf:resource="http://www.w3.org/2002/07/owl#NamedIndividual"/>
-    <rdf:type rdf:resource="http://example.org/game-recommendation#Difficulty"/>
-    <rdfs:label>Sulit</rdfs:label>
-  </rdf:Description>
-  <rdf:Description rdf:about="http://example.org/game-recommendation#recommendsGame">
-    <rdf:type rdf:resource="http://www.w3.org/2002/07/owl#ObjectProperty"/>
-    <rdfs:domain rdf:resource="http://example.org/game-recommendation#Recommendation"/>
-    <rdfs:range rdf:resource="http://example.org/game-recommendation#Game"/>
-    <rdfs:label>recommendsGame</rdfs:label>
-    <rdfs:comment xml:lang="id">Rekomendasi menunjuk game tertentu.</rdfs:comment>
   </rdf:Description>
   <rdf:Description rdf:about="http://example.org/game-recommendation#basedOnMood">
     <rdf:type rdf:resource="http://www.w3.org/2002/07/owl#ObjectProperty"/>
@@ -550,101 +695,307 @@
     <rdfs:label>basedOnMood</rdfs:label>
     <rdfs:comment xml:lang="id">Rekomendasi didasarkan pada mood tertentu.</rdfs:comment>
   </rdf:Description>
-  <rdf:Description rdf:about="http://example.org/game-recommendation#PlayMode">
-    <rdf:type rdf:resource="http://www.w3.org/2002/07/owl#Class"/>
-    <rdfs:label>PlayMode</rdfs:label>
-    <rdfs:comment xml:lang="id">Mode bermain game.</rdfs:comment>
+  <rdf:Description rdf:about="http://example.org/game-recommendation#Recommendation_Minecraft_Exploration">
+    <rdf:type rdf:resource="http://www.w3.org/2002/07/owl#NamedIndividual"/>
+    <rdf:type rdf:resource="http://example.org/game-recommendation#Recommendation"/>
+    <rdfs:label>Recommendation_Minecraft_Exploration</rdfs:label>
+    <recommendsGame rdf:resource="http://example.org/game-recommendation#Minecraft"/>
+    <basedOnMood rdf:resource="http://example.org/game-recommendation#Eksploratif"/>
+    <basedOnPreference rdf:resource="http://example.org/game-recommendation#PreferAdventure"/>
+    <basedOnPreference rdf:resource="http://example.org/game-recommendation#PreferPC"/>
+    <basedOnPreference rdf:resource="http://example.org/game-recommendation#PreferMultiplayer"/>
+    <basedOnPreference rdf:resource="http://example.org/game-recommendation#PreferPanjang"/>
+    <priorityScore rdf:datatype="http://www.w3.org/2001/XMLSchema#integer">12</priorityScore>
+    <recommendationReason xml:lang="id">Minecraft direkomendasikan untuk mood Eksploratif karena mendukung eksplorasi, tersedia di banyak platform, dan dapat dimainkan sendiri maupun bersama.</recommendationReason>
   </rdf:Description>
-  <rdf:Description rdf:about="http://example.org/game-recommendation#PreferCoop">
+  <rdf:Description rdf:about="http://example.org/game-recommendation#PreferStrategy">
     <rdf:type rdf:resource="http://www.w3.org/2002/07/owl#NamedIndividual"/>
     <rdf:type rdf:resource="http://example.org/game-recommendation#PlayerPreference"/>
-    <rdfs:label>PreferCoop</rdfs:label>
-    <rdfs:comment xml:lang="id">Preferensi mode co-op.</rdfs:comment>
+    <rdfs:label>PreferStrategy</rdfs:label>
+    <rdfs:comment xml:lang="id">Preferensi genre Strategy.</rdfs:comment>
   </rdf:Description>
-  <rdf:Description rdf:about="http://example.org/game-recommendation#PreferCasual">
+  <rdf:Description rdf:about="http://example.org/game-recommendation#Sulit">
     <rdf:type rdf:resource="http://www.w3.org/2002/07/owl#NamedIndividual"/>
-    <rdf:type rdf:resource="http://example.org/game-recommendation#PlayerPreference"/>
-    <rdfs:label>PreferCasual</rdfs:label>
-    <rdfs:comment xml:lang="id">Preferensi game kasual/ringan.</rdfs:comment>
+    <rdf:type rdf:resource="http://example.org/game-recommendation#Difficulty"/>
+    <rdfs:label>Sulit</rdfs:label>
   </rdf:Description>
-  <rdf:Description rdf:about="http://example.org/game-recommendation#FPS">
+  <rdf:Description rdf:about="http://example.org/game-recommendation#CounterStrike2">
+    <rdf:type rdf:resource="http://www.w3.org/2002/07/owl#NamedIndividual"/>
+    <rdf:type rdf:resource="http://example.org/game-recommendation#Game"/>
+    <rdf:type rdf:resource="http://example.org/game-recommendation#CompetitiveGame"/>
+    <gameTitle>Counter-Strike 2</gameTitle>
+    <rdfs:label>Counter-Strike 2</rdfs:label>
+    <hasGenre rdf:resource="http://example.org/game-recommendation#FPS"/>
+    <matchesPreference rdf:resource="http://example.org/game-recommendation#PreferFPS"/>
+    <matchesPreference rdf:resource="http://example.org/game-recommendation#PreferPC"/>
+    <matchesPreference rdf:resource="http://example.org/game-recommendation#PreferMultiplayer"/>
+    <matchesPreference rdf:resource="http://example.org/game-recommendation#PreferSulit"/>
+    <matchesPreference rdf:resource="http://example.org/game-recommendation#PreferSingkat"/>
+    <matchesPreference rdf:resource="http://example.org/game-recommendation#PreferSedang"/>
+    <suitableForMood rdf:resource="http://example.org/game-recommendation#Kompetitif"/>
+    <availableOn rdf:resource="http://example.org/game-recommendation#PC"/>
+    <hasPlayMode rdf:resource="http://example.org/game-recommendation#Multiplayer"/>
+    <hasDifficulty rdf:resource="http://example.org/game-recommendation#Sulit"/>
+    <hasDuration rdf:resource="http://example.org/game-recommendation#Singkat"/>
+    <hasDuration rdf:resource="http://example.org/game-recommendation#Sedang"/>
+  </rdf:Description>
+  <rdf:Description rdf:about="http://example.org/game-recommendation#recommendsGame">
+    <rdf:type rdf:resource="http://www.w3.org/2002/07/owl#ObjectProperty"/>
+    <rdfs:domain rdf:resource="http://example.org/game-recommendation#Recommendation"/>
+    <rdfs:range rdf:resource="http://example.org/game-recommendation#Game"/>
+    <rdfs:label>recommendsGame</rdfs:label>
+    <rdfs:comment xml:lang="id">Rekomendasi menunjuk game tertentu.</rdfs:comment>
+  </rdf:Description>
+  <rdf:Description rdf:about="http://example.org/game-recommendation#hasGenre">
+    <rdf:type rdf:resource="http://www.w3.org/2002/07/owl#ObjectProperty"/>
+    <rdfs:domain rdf:resource="http://example.org/game-recommendation#Game"/>
+    <rdfs:range rdf:resource="http://example.org/game-recommendation#Genre"/>
+    <rdfs:label>hasGenre</rdfs:label>
+    <rdfs:comment xml:lang="id">Game memiliki genre tertentu.</rdfs:comment>
+  </rdf:Description>
+  <rdf:Description rdf:about="http://example.org/game-recommendation#Puzzle">
     <rdf:type rdf:resource="http://www.w3.org/2002/07/owl#NamedIndividual"/>
     <rdf:type rdf:resource="http://example.org/game-recommendation#Genre"/>
-    <rdfs:label>FPS</rdfs:label>
+    <rdfs:label>Puzzle</rdfs:label>
   </rdf:Description>
-  <rdf:Description rdf:about="http://example.org/game-recommendation#ExplorationGame">
-    <rdf:type rdf:resource="http://www.w3.org/2002/07/owl#Class"/>
-    <rdfs:label>ExplorationGame</rdfs:label>
-    <rdfs:comment xml:lang="id">Game yang cocok untuk eksplorasi.</rdfs:comment>
-    <rdfs:subClassOf rdf:resource="http://example.org/game-recommendation#Game"/>
-  </rdf:Description>
-  <rdf:Description rdf:about="http://example.org/game-recommendation#Platform">
-    <rdf:type rdf:resource="http://www.w3.org/2002/07/owl#Class"/>
-    <rdfs:label>Platform</rdfs:label>
-    <rdfs:comment xml:lang="id">Perangkat tempat game dimainkan.</rdfs:comment>
-  </rdf:Description>
-  <rdf:Description rdf:about="http://example.org/game-recommendation#Eksploratif">
-    <rdf:type rdf:resource="http://www.w3.org/2002/07/owl#NamedIndividual"/>
-    <rdf:type rdf:resource="http://example.org/game-recommendation#Mood"/>
-    <rdfs:label>Eksploratif</rdfs:label>
-  </rdf:Description>
-  <rdf:Description rdf:about="http://example.org/game-recommendation#PreferMobile">
-    <rdf:type rdf:resource="http://www.w3.org/2002/07/owl#NamedIndividual"/>
-    <rdf:type rdf:resource="http://example.org/game-recommendation#PlayerPreference"/>
-    <rdfs:label>PreferMobile</rdfs:label>
-    <rdfs:comment xml:lang="id">Preferensi platform Mobile.</rdfs:comment>
-  </rdf:Description>
-  <rdf:Description rdf:about="http://example.org/game-recommendation#PC">
+  <rdf:Description rdf:about="http://example.org/game-recommendation#Console">
     <rdf:type rdf:resource="http://www.w3.org/2002/07/owl#NamedIndividual"/>
     <rdf:type rdf:resource="http://example.org/game-recommendation#Platform"/>
-    <rdfs:label>PC</rdfs:label>
+    <rdfs:label>Console</rdfs:label>
   </rdf:Description>
-  <rdf:Description rdf:about="http://example.org/game-recommendation#Coop">
-    <rdf:type rdf:resource="http://www.w3.org/2002/07/owl#NamedIndividual"/>
-    <rdf:type rdf:resource="http://example.org/game-recommendation#PlayMode"/>
-    <rdfs:label>Coop</rdfs:label>
-  </rdf:Description>
-  <rdf:Description rdf:about="http://example.org/game-recommendation#Sedang">
-    <rdf:type rdf:resource="http://www.w3.org/2002/07/owl#NamedIndividual"/>
-    <rdf:type rdf:resource="http://example.org/game-recommendation#Duration"/>
-    <rdf:type rdf:resource="http://example.org/game-recommendation#Difficulty"/>
-    <rdfs:label>Sedang</rdfs:label>
-  </rdf:Description>
-  <rdf:Description rdf:about="http://example.org/game-recommendation#SinglePlayer">
-    <rdf:type rdf:resource="http://www.w3.org/2002/07/owl#NamedIndividual"/>
-    <rdf:type rdf:resource="http://example.org/game-recommendation#PlayMode"/>
-    <rdfs:label>SinglePlayer</rdfs:label>
-  </rdf:Description>
-  <rdf:Description rdf:about="http://example.org/game-recommendation#Mood">
-    <rdf:type rdf:resource="http://www.w3.org/2002/07/owl#Class"/>
-    <rdfs:label>Mood</rdfs:label>
-    <rdfs:comment xml:lang="id">Kondisi emosional pengguna saat memilih game.</rdfs:comment>
-  </rdf:Description>
-  <rdf:Description rdf:about="http://example.org/game-recommendation#PreferShortSession">
+  <rdf:Description rdf:about="http://example.org/game-recommendation#PreferPuzzle">
     <rdf:type rdf:resource="http://www.w3.org/2002/07/owl#NamedIndividual"/>
     <rdf:type rdf:resource="http://example.org/game-recommendation#PlayerPreference"/>
-    <rdfs:label>PreferShortSession</rdfs:label>
-    <rdfs:comment xml:lang="id">Preferensi durasi singkat.</rdfs:comment>
+    <rdfs:label>PreferPuzzle</rdfs:label>
+    <rdfs:comment xml:lang="id">Preferensi genre Puzzle.</rdfs:comment>
   </rdf:Description>
-  <rdf:Description rdf:about="http://example.org/game-recommendation#PreferRPG">
-    <rdf:type rdf:resource="http://www.w3.org/2002/07/owl#NamedIndividual"/>
-    <rdf:type rdf:resource="http://example.org/game-recommendation#PlayerPreference"/>
-    <rdfs:label>PreferRPG</rdfs:label>
-    <rdfs:comment xml:lang="id">Preferensi game RPG.</rdfs:comment>
+  <rdf:Description rdf:about="http://example.org/game-recommendation#gameTitle">
+    <rdf:type rdf:resource="http://www.w3.org/2002/07/owl#DatatypeProperty"/>
+    <rdfs:domain rdf:resource="http://example.org/game-recommendation#Game"/>
+    <rdfs:range rdf:resource="http://www.w3.org/2001/XMLSchema#string"/>
+    <rdfs:label>gameTitle</rdfs:label>
+    <rdfs:comment xml:lang="id">Judul game.</rdfs:comment>
   </rdf:Description>
   <rdf:Description rdf:about="http://example.org/game-recommendation#Adventure">
     <rdf:type rdf:resource="http://www.w3.org/2002/07/owl#NamedIndividual"/>
     <rdf:type rdf:resource="http://example.org/game-recommendation#Genre"/>
     <rdfs:label>Adventure</rdfs:label>
   </rdf:Description>
+  <rdf:Description rdf:about="http://example.org/game-recommendation#PreferCoop">
+    <rdf:type rdf:resource="http://www.w3.org/2002/07/owl#NamedIndividual"/>
+    <rdf:type rdf:resource="http://example.org/game-recommendation#PlayerPreference"/>
+    <rdfs:label>PreferCoop</rdfs:label>
+    <rdfs:comment xml:lang="id">Preferensi mode Coop.</rdfs:comment>
+  </rdf:Description>
+  <rdf:Description rdf:about="http://example.org/game-recommendation#Santai">
+    <rdf:type rdf:resource="http://www.w3.org/2002/07/owl#NamedIndividual"/>
+    <rdf:type rdf:resource="http://example.org/game-recommendation#Mood"/>
+    <rdfs:label>Santai</rdfs:label>
+  </rdf:Description>
+  <rdf:Description rdf:about="http://example.org/game-recommendation#PreferSocialDeduction">
+    <rdf:type rdf:resource="http://www.w3.org/2002/07/owl#NamedIndividual"/>
+    <rdf:type rdf:resource="http://example.org/game-recommendation#PlayerPreference"/>
+    <rdfs:label>PreferSocialDeduction</rdfs:label>
+    <rdfs:comment xml:lang="id">Preferensi genre SocialDeduction.</rdfs:comment>
+  </rdf:Description>
+  <rdf:Description rdf:about="http://example.org/game-recommendation#hasDifficulty">
+    <rdf:type rdf:resource="http://www.w3.org/2002/07/owl#ObjectProperty"/>
+    <rdfs:domain rdf:resource="http://example.org/game-recommendation#Game"/>
+    <rdfs:range rdf:resource="http://example.org/game-recommendation#Difficulty"/>
+    <rdfs:label>hasDifficulty</rdfs:label>
+    <rdfs:comment xml:lang="id">Game memiliki tingkat kesulitan tertentu.</rdfs:comment>
+  </rdf:Description>
+  <rdf:Description rdf:about="http://example.org/game-recommendation#hasDuration">
+    <rdf:type rdf:resource="http://www.w3.org/2002/07/owl#ObjectProperty"/>
+    <rdfs:domain rdf:resource="http://example.org/game-recommendation#Game"/>
+    <rdfs:range rdf:resource="http://example.org/game-recommendation#Duration"/>
+    <rdfs:label>hasDuration</rdfs:label>
+    <rdfs:comment xml:lang="id">Game cocok untuk durasi sesi tertentu.</rdfs:comment>
+  </rdf:Description>
+  <rdf:Description rdf:about="http://example.org/game-recommendation#Duration">
+    <rdf:type rdf:resource="http://www.w3.org/2002/07/owl#Class"/>
+    <rdfs:label>Duration</rdfs:label>
+    <rdfs:comment xml:lang="id">Estimasi durasi sesi bermain.</rdfs:comment>
+  </rdf:Description>
+  <rdf:Description rdf:about="http://example.org/game-recommendation#Coop">
+    <rdf:type rdf:resource="http://www.w3.org/2002/07/owl#NamedIndividual"/>
+    <rdf:type rdf:resource="http://example.org/game-recommendation#PlayMode"/>
+    <rdfs:label>Coop</rdfs:label>
+  </rdf:Description>
+  <rdf:Description rdf:about="http://example.org/game-recommendation#Panjang">
+    <rdf:type rdf:resource="http://www.w3.org/2002/07/owl#NamedIndividual"/>
+    <rdf:type rdf:resource="http://example.org/game-recommendation#Duration"/>
+    <rdfs:label>Panjang</rdfs:label>
+  </rdf:Description>
+  <rdf:Description rdf:about="http://example.org/game-recommendation#PreferSandbox">
+    <rdf:type rdf:resource="http://www.w3.org/2002/07/owl#NamedIndividual"/>
+    <rdf:type rdf:resource="http://example.org/game-recommendation#PlayerPreference"/>
+    <rdfs:label>PreferSandbox</rdfs:label>
+    <rdfs:comment xml:lang="id">Preferensi genre Sandbox.</rdfs:comment>
+  </rdf:Description>
+  <rdf:Description rdf:about="http://example.org/game-recommendation#Sosial">
+    <rdf:type rdf:resource="http://www.w3.org/2002/07/owl#NamedIndividual"/>
+    <rdf:type rdf:resource="http://example.org/game-recommendation#Mood"/>
+    <rdfs:label>Sosial</rdfs:label>
+  </rdf:Description>
+  <rdf:Description rdf:about="http://example.org/game-recommendation#SocialGame">
+    <rdf:type rdf:resource="http://www.w3.org/2002/07/owl#Class"/>
+    <rdfs:label>SocialGame</rdfs:label>
+    <rdfs:comment xml:lang="id">Game yang cocok untuk bermain sosial.</rdfs:comment>
+    <rdfs:subClassOf rdf:resource="http://example.org/game-recommendation#Game"/>
+  </rdf:Description>
+  <rdf:Description rdf:about="http://example.org/game-recommendation#Mobile">
+    <rdf:type rdf:resource="http://www.w3.org/2002/07/owl#NamedIndividual"/>
+    <rdf:type rdf:resource="http://example.org/game-recommendation#Platform"/>
+    <rdfs:label>Mobile</rdfs:label>
+  </rdf:Description>
+  <rdf:Description rdf:about="http://example.org/game-recommendation#PreferSimulation">
+    <rdf:type rdf:resource="http://www.w3.org/2002/07/owl#NamedIndividual"/>
+    <rdf:type rdf:resource="http://example.org/game-recommendation#PlayerPreference"/>
+    <rdfs:label>PreferSimulation</rdfs:label>
+    <rdfs:comment xml:lang="id">Preferensi genre Simulation.</rdfs:comment>
+  </rdf:Description>
+  <rdf:Description rdf:about="http://example.org/game-recommendation#Casual">
+    <rdf:type rdf:resource="http://www.w3.org/2002/07/owl#NamedIndividual"/>
+    <rdf:type rdf:resource="http://example.org/game-recommendation#Genre"/>
+    <rdfs:label>Casual</rdfs:label>
+  </rdf:Description>
+  <rdf:Description rdf:about="http://example.org/game-recommendation#Eksploratif">
+    <rdf:type rdf:resource="http://www.w3.org/2002/07/owl#NamedIndividual"/>
+    <rdf:type rdf:resource="http://example.org/game-recommendation#Mood"/>
+    <rdfs:label>Eksploratif</rdfs:label>
+  </rdf:Description>
+  <rdf:Description rdf:about="http://example.org/game-recommendation#CompetitiveGame">
+    <rdf:type rdf:resource="http://www.w3.org/2002/07/owl#Class"/>
+    <rdfs:label>CompetitiveGame</rdfs:label>
+    <rdfs:comment xml:lang="id">Game yang cocok untuk mood kompetitif.</rdfs:comment>
+    <rdfs:subClassOf rdf:resource="http://example.org/game-recommendation#Game"/>
+  </rdf:Description>
+  <rdf:Description rdf:about="http://example.org/game-recommendation#PreferMultiplayer">
+    <rdf:type rdf:resource="http://www.w3.org/2002/07/owl#NamedIndividual"/>
+    <rdf:type rdf:resource="http://example.org/game-recommendation#PlayerPreference"/>
+    <rdfs:label>PreferMultiplayer</rdfs:label>
+    <rdfs:comment xml:lang="id">Preferensi mode Multiplayer.</rdfs:comment>
+  </rdf:Description>
+  <rdf:Description rdf:about="http://example.org/game-recommendation#PlayerPreference">
+    <rdf:type rdf:resource="http://www.w3.org/2002/07/owl#Class"/>
+    <rdfs:label>PlayerPreference</rdfs:label>
+    <rdfs:comment xml:lang="id">Preferensi pengguna dalam memilih game.</rdfs:comment>
+  </rdf:Description>
+  <rdf:Description rdf:about="http://example.org/game-recommendation#Bosan">
+    <rdf:type rdf:resource="http://www.w3.org/2002/07/owl#NamedIndividual"/>
+    <rdf:type rdf:resource="http://example.org/game-recommendation#Mood"/>
+    <rdfs:label>Bosan</rdfs:label>
+  </rdf:Description>
+  <rdf:Description rdf:about="http://example.org/game-recommendation#PreferRPG">
+    <rdf:type rdf:resource="http://www.w3.org/2002/07/owl#NamedIndividual"/>
+    <rdf:type rdf:resource="http://example.org/game-recommendation#PlayerPreference"/>
+    <rdfs:label>PreferRPG</rdfs:label>
+    <rdfs:comment xml:lang="id">Preferensi genre RPG.</rdfs:comment>
+  </rdf:Description>
+  <rdf:Description rdf:about="http://example.org/game-recommendation#PreferSinglePlayer">
+    <rdf:type rdf:resource="http://www.w3.org/2002/07/owl#NamedIndividual"/>
+    <rdf:type rdf:resource="http://example.org/game-recommendation#PlayerPreference"/>
+    <rdfs:label>PreferSinglePlayer</rdfs:label>
+    <rdfs:comment xml:lang="id">Preferensi mode SinglePlayer.</rdfs:comment>
+  </rdf:Description>
   <rdf:Description rdf:about="http://example.org/game-recommendation#Recommendation">
     <rdf:type rdf:resource="http://www.w3.org/2002/07/owl#Class"/>
     <rdfs:label>Recommendation</rdfs:label>
     <rdfs:comment xml:lang="id">Hasil rekomendasi beserta dasar dan alasannya.</rdfs:comment>
   </rdf:Description>
+  <rdf:Description rdf:about="http://example.org/game-recommendation#PreferPC">
+    <rdf:type rdf:resource="http://www.w3.org/2002/07/owl#NamedIndividual"/>
+    <rdf:type rdf:resource="http://example.org/game-recommendation#PlayerPreference"/>
+    <rdfs:label>PreferPC</rdfs:label>
+    <rdfs:comment xml:lang="id">Preferensi platform PC.</rdfs:comment>
+  </rdf:Description>
+  <rdf:Description rdf:about="http://example.org/game-recommendation#GameRecommendationOntology">
+    <rdf:type rdf:resource="http://www.w3.org/2002/07/owl#Ontology"/>
+    <rdfs:label xml:lang="id">Ontologi Rekomendasi Game Berdasarkan Preferensi dan Mood</rdfs:label>
+    <rdfs:comment xml:lang="id">Ontologi tugas besar RPP untuk memodelkan game, mood, preferensi bermain, dan rekomendasi berbasis pengetahuan.</rdfs:comment>
+  </rdf:Description>
+  <rdf:Description rdf:about="http://example.org/game-recommendation#PreferMetroidvania">
+    <rdf:type rdf:resource="http://www.w3.org/2002/07/owl#NamedIndividual"/>
+    <rdf:type rdf:resource="http://example.org/game-recommendation#PlayerPreference"/>
+    <rdfs:label>PreferMetroidvania</rdfs:label>
+    <rdfs:comment xml:lang="id">Preferensi genre Metroidvania.</rdfs:comment>
+  </rdf:Description>
+  <rdf:Description rdf:about="http://example.org/game-recommendation#Simulation">
+    <rdf:type rdf:resource="http://www.w3.org/2002/07/owl#NamedIndividual"/>
+    <rdf:type rdf:resource="http://example.org/game-recommendation#Genre"/>
+    <rdfs:label>Simulation</rdfs:label>
+  </rdf:Description>
+  <rdf:Description rdf:about="http://example.org/game-recommendation#Stres">
+    <rdf:type rdf:resource="http://www.w3.org/2002/07/owl#NamedIndividual"/>
+    <rdf:type rdf:resource="http://example.org/game-recommendation#Mood"/>
+    <rdfs:label>Stres</rdfs:label>
+  </rdf:Description>
+  <rdf:Description rdf:about="http://example.org/game-recommendation#PreferPanjang">
+    <rdf:type rdf:resource="http://www.w3.org/2002/07/owl#NamedIndividual"/>
+    <rdf:type rdf:resource="http://example.org/game-recommendation#PlayerPreference"/>
+    <rdfs:label>PreferPanjang</rdfs:label>
+    <rdfs:comment xml:lang="id">Preferensi durasi Panjang.</rdfs:comment>
+  </rdf:Description>
+  <rdf:Description rdf:about="http://example.org/game-recommendation#PC">
+    <rdf:type rdf:resource="http://www.w3.org/2002/07/owl#NamedIndividual"/>
+    <rdf:type rdf:resource="http://example.org/game-recommendation#Platform"/>
+    <rdfs:label>PC</rdfs:label>
+  </rdf:Description>
+  <rdf:Description rdf:about="http://example.org/game-recommendation#hasPlayMode">
+    <rdf:type rdf:resource="http://www.w3.org/2002/07/owl#ObjectProperty"/>
+    <rdfs:domain rdf:resource="http://example.org/game-recommendation#Game"/>
+    <rdfs:range rdf:resource="http://example.org/game-recommendation#PlayMode"/>
+    <rdfs:label>hasPlayMode</rdfs:label>
+    <rdfs:comment xml:lang="id">Game memiliki mode bermain tertentu.</rdfs:comment>
+  </rdf:Description>
+  <rdf:Description rdf:about="http://example.org/game-recommendation#PreferAdventure">
+    <rdf:type rdf:resource="http://www.w3.org/2002/07/owl#NamedIndividual"/>
+    <rdf:type rdf:resource="http://example.org/game-recommendation#PlayerPreference"/>
+    <rdfs:label>PreferAdventure</rdfs:label>
+    <rdfs:comment xml:lang="id">Preferensi genre Adventure.</rdfs:comment>
+  </rdf:Description>
+  <rdf:Description rdf:about="http://example.org/game-recommendation#PreferBattleRoyale">
+    <rdf:type rdf:resource="http://www.w3.org/2002/07/owl#NamedIndividual"/>
+    <rdf:type rdf:resource="http://example.org/game-recommendation#PlayerPreference"/>
+    <rdfs:label>PreferBattleRoyale</rdfs:label>
+    <rdfs:comment xml:lang="id">Preferensi genre BattleRoyale.</rdfs:comment>
+  </rdf:Description>
+  <rdf:Description rdf:about="http://example.org/game-recommendation#PreferParty">
+    <rdf:type rdf:resource="http://www.w3.org/2002/07/owl#NamedIndividual"/>
+    <rdf:type rdf:resource="http://example.org/game-recommendation#PlayerPreference"/>
+    <rdfs:label>PreferParty</rdfs:label>
+    <rdfs:comment xml:lang="id">Preferensi genre Party.</rdfs:comment>
+  </rdf:Description>
+  <rdf:Description rdf:about="http://example.org/game-recommendation#RelaxingGame">
+    <rdf:type rdf:resource="http://www.w3.org/2002/07/owl#Class"/>
+    <rdfs:label>RelaxingGame</rdfs:label>
+    <rdfs:comment xml:lang="id">Game yang cocok untuk suasana santai atau mengurangi stres.</rdfs:comment>
+    <rdfs:subClassOf rdf:resource="http://example.org/game-recommendation#Game"/>
+  </rdf:Description>
+  <rdf:Description rdf:about="http://example.org/game-recommendation#Mood">
+    <rdf:type rdf:resource="http://www.w3.org/2002/07/owl#Class"/>
+    <rdfs:label>Mood</rdfs:label>
+    <rdfs:comment xml:lang="id">Kondisi emosional pengguna saat memilih game.</rdfs:comment>
+  </rdf:Description>
+  <rdf:Description rdf:about="http://example.org/game-recommendation#Kompetitif">
+    <rdf:type rdf:resource="http://www.w3.org/2002/07/owl#NamedIndividual"/>
+    <rdf:type rdf:resource="http://example.org/game-recommendation#Mood"/>
+    <rdfs:label>Kompetitif</rdfs:label>
+  </rdf:Description>
   <rdf:Description rdf:about="http://example.org/game-recommendation#Multiplayer">
     <rdf:type rdf:resource="http://www.w3.org/2002/07/owl#NamedIndividual"/>
     <rdf:type rdf:resource="http://example.org/game-recommendation#PlayMode"/>
     <rdfs:label>Multiplayer</rdfs:label>
+  </rdf:Description>
+  <rdf:Description rdf:about="http://example.org/game-recommendation#FPS">
+    <rdf:type rdf:resource="http://www.w3.org/2002/07/owl#NamedIndividual"/>
+    <rdf:type rdf:resource="http://example.org/game-recommendation#Genre"/>
+    <rdfs:label>FPS</rdfs:label>
+  </rdf:Description>
+  <rdf:Description rdf:about="http://example.org/game-recommendation#BattleRoyale">
+    <rdf:type rdf:resource="http://www.w3.org/2002/07/owl#NamedIndividual"/>
+    <rdf:type rdf:resource="http://example.org/game-recommendation#Genre"/>
+    <rdfs:label>BattleRoyale</rdfs:label>
   </rdf:Description>
 </rdf:RDF>
